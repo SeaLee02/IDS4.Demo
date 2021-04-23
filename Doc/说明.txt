@@ -1,0 +1,71 @@
+1.安装nuget包
+IdentityServer4
+IdentityServer4.AspNetIdentity
+IdentityServer4.EntityFramework
+Microsoft.AspNetCore.Identity.EntityFrameworkCore   --操作上下文
+Microsoft.EntityFrameworkCore.SqlServer  
+Microsoft.EntityFrameworkCore.Design   --EF迁移使用
+
+
+2.创建用户上下文
+public class ApplicationDbContext : IdentityDbContext<IdentityUser>
+    {
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+            : base(options)
+        {
+        }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+            // Customize the ASP.NET Identity model and override the defaults if needed.
+            // For example, you can rename the ASP.NET Identity table names and more.
+            // Add your customizations after calling base.OnModelCreating(builder);
+        }
+    }
+
+3.ConfigureServices
+   var migrationsAssembly = typeof(Startup).GetTypeInfo().Assembly.GetName().Name;
+            //自定义上下文
+            //add-migration AppDbMigration -c ApplicationDbContext -o Data
+            //update-database -c ApplicationDbContext
+            services.AddDbContext<ApplicationDbContext>(options =>
+                options.UseSqlServer(con));
+
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddEntityFrameworkStores<ApplicationDbContext>()
+                .AddDefaultTokenProviders();
+
+            var build = services.AddIdentityServer(options =>
+            {
+                options.Events.RaiseErrorEvents = true;
+                options.Events.RaiseInformationEvents = true;
+                options.Events.RaiseFailureEvents = true;
+                options.Events.RaiseSuccessEvents = true;
+          
+            })
+                .AddAspNetIdentity<IdentityUser>()
+                .AddConfigurationStore(options =>
+                 {
+                     //配置上下文
+                     //配置表：add-migration InitialIdentityServerConfigurationDbMigration -c ConfigurationDbContext -o Data/Migrations/IdentityServer/ConfigurationDb 
+                     //生成表：update-database -c ConfigurationDbContext
+                     options.ConfigureDbContext = builder => builder.UseSqlServer(con, sql => sql.MigrationsAssembly(migrationsAssembly));
+                 })
+                // this adds the operational data from DB (codes, tokens, consents)
+                .AddOperationalStore(options =>
+                {
+                    //操作上下文
+                    //配置表：add-migration InitialIdentityServerPersistedGrantDbMigration -c PersistedGrantDbContext -o Data/Migrations/IdentityServer/PersistedGrantDb 
+                    //生成表：update-database -c PersistedGrantDbContext
+                    options.ConfigureDbContext = builder => builder.UseSqlServer(con, sql => sql.MigrationsAssembly(migrationsAssembly));
+                });
+
+4.生成配置
+add-migration InitialIdentityServerConfigurationDbMigration -c ConfigurationDbContext -o Data/Migrations/IdentityServer/ConfigurationDb    配置上下文
+add-migration InitialIdentityServerPersistedGrantDbMigration -c PersistedGrantDbContext -o Data/Migrations/IdentityServer/PersistedGrantDb  操作上下文（弃）
+add-migration AppDbMigration -c ApplicationDbContext -o Data    自己定义上下文，可以扩展
+
+update-database -c ConfigurationDbContext
+update-database -c PersistedGrantDbContext
+update-database -c ApplicationDbContext
