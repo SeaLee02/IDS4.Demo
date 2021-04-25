@@ -1,0 +1,2615 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>System.Text.Json.5.0.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.QualityTools.Testing.Fakes.Delegates.SystemTextJsonDelegates">
+            <summary>包含用于 System.Text.Json 的存根和填充码的自定义委托</summary>
+        </member>
+        <member name="T:System.Text.Json.Fakes.ShimJsonDocument">
+            <summary>System.Text.Json.JsonDocument 的填充码类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonDocument.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonDocument.#ctor(System.Text.Json.JsonDocument)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Fakes.ShimJsonDocument.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.AllInstances.CheckExpectedTypeJsonTokenTypeJsonTokenType">
+            <summary>设置 JsonDocument.CheckExpectedType(JsonDocument this, JsonTokenType expected, JsonTokenType actual) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.AllInstances.CheckNotDisposed">
+            <summary>设置 JsonDocument.CheckNotDisposed(JsonDocument this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.AllInstances.CloneElementInt32">
+            <summary>设置 JsonDocument.CloneElement(JsonDocument this, Int32 index) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.AllInstances.Dispose">
+            <summary>设置 JsonDocument.Dispose(JsonDocument this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.AllInstances.GetArrayIndexElementInt32Int32">
+            <summary>设置 JsonDocument.GetArrayIndexElement(JsonDocument this, Int32 currentIndex, Int32 arrayIndex) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.AllInstances.GetArrayLengthInt32">
+            <summary>设置 JsonDocument.GetArrayLength(JsonDocument this, Int32 index) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.AllInstances.GetEndIndexInt32Boolean">
+            <summary>设置 JsonDocument.GetEndIndex(JsonDocument this, Int32 index, Boolean includeEndElement) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.AllInstances.GetJsonTokenTypeInt32">
+            <summary>设置 JsonDocument.GetJsonTokenType(JsonDocument this, Int32 index) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.AllInstances.GetNameOfPropertyValueInt32">
+            <summary>设置 JsonDocument.GetNameOfPropertyValue(JsonDocument this, Int32 index) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.AllInstances.GetPropertyRawValueAsStringInt32">
+            <summary>设置 JsonDocument.GetPropertyRawValueAsString(JsonDocument this, Int32 valueIndex) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.AllInstances.GetPropertyRawValueInt32">
+            <summary>设置 JsonDocument.GetPropertyRawValue(JsonDocument this, Int32 valueIndex) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.AllInstances.GetRawValueAsStringInt32">
+            <summary>设置 JsonDocument.GetRawValueAsString(JsonDocument this, Int32 index) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.AllInstances.GetRawValueInt32Boolean">
+            <summary>设置 JsonDocument.GetRawValue(JsonDocument this, Int32 index, Boolean includeQuotes) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.AllInstances.GetStringInt32JsonTokenType">
+            <summary>设置 JsonDocument.GetString(JsonDocument this, Int32 index, JsonTokenType expectedType) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.AllInstances.IsDisposableGet">
+            <summary>设置 JsonDocument.get_IsDisposable(JsonDocument this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.AllInstances.RootElementGet">
+            <summary>设置 JsonDocument.get_RootElement(JsonDocument this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.AllInstances.TryGetValueInt32ByteArrayOut">
+            <summary>设置 JsonDocument.TryGetValue(JsonDocument this, Int32 index, Byte[]* value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.AllInstances.TryGetValueInt32ByteOut">
+            <summary>设置 JsonDocument.TryGetValue(JsonDocument this, Int32 index, Byte* value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.AllInstances.TryGetValueInt32DateTimeOffsetOut">
+            <summary>设置 JsonDocument.TryGetValue(JsonDocument this, Int32 index, DateTimeOffset* value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.AllInstances.TryGetValueInt32DateTimeOut">
+            <summary>设置 JsonDocument.TryGetValue(JsonDocument this, Int32 index, DateTime* value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.AllInstances.TryGetValueInt32DecimalOut">
+            <summary>设置 JsonDocument.TryGetValue(JsonDocument this, Int32 index, Decimal* value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.AllInstances.TryGetValueInt32DoubleOut">
+            <summary>设置 JsonDocument.TryGetValue(JsonDocument this, Int32 index, Double* value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.AllInstances.TryGetValueInt32GuidOut">
+            <summary>设置 JsonDocument.TryGetValue(JsonDocument this, Int32 index, Guid* value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.AllInstances.TryGetValueInt32Int16Out">
+            <summary>设置 JsonDocument.TryGetValue(JsonDocument this, Int32 index, Int16* value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.AllInstances.TryGetValueInt32Int32Out">
+            <summary>设置 JsonDocument.TryGetValue(JsonDocument this, Int32 index, Int32* value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.AllInstances.TryGetValueInt32Int64Out">
+            <summary>设置 JsonDocument.TryGetValue(JsonDocument this, Int32 index, Int64* value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.AllInstances.TryGetValueInt32SByteOut">
+            <summary>设置 JsonDocument.TryGetValue(JsonDocument this, Int32 index, SByte* value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.AllInstances.TryGetValueInt32SingleOut">
+            <summary>设置 JsonDocument.TryGetValue(JsonDocument this, Int32 index, Single* value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.AllInstances.TryGetValueInt32UInt16Out">
+            <summary>设置 JsonDocument.TryGetValue(JsonDocument this, Int32 index, UInt16* value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.AllInstances.TryGetValueInt32UInt32Out">
+            <summary>设置 JsonDocument.TryGetValue(JsonDocument this, Int32 index, UInt32* value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.AllInstances.TryGetValueInt32UInt64Out">
+            <summary>设置 JsonDocument.TryGetValue(JsonDocument this, Int32 index, UInt64* value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.AllInstances.WriteComplexElementInt32Utf8JsonWriter">
+            <summary>设置 JsonDocument.WriteComplexElement(JsonDocument this, Int32 index, Utf8JsonWriter writer) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.AllInstances.WriteElementToInt32Utf8JsonWriter">
+            <summary>设置 JsonDocument.WriteElementTo(JsonDocument this, Int32 index, Utf8JsonWriter writer) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.AllInstances.WriteToUtf8JsonWriter">
+            <summary>设置 JsonDocument.WriteTo(JsonDocument this, Utf8JsonWriter writer) 的 填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonDocument.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonDocument.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonDocument.Bind(System.IDisposable)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.CheckExpectedTypeJsonTokenTypeJsonTokenType">
+            <summary>设置 JsonDocument.CheckExpectedType(JsonDocument this, JsonTokenType expected, JsonTokenType actual) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.CheckNotDisposed">
+            <summary>设置 JsonDocument.CheckNotDisposed(JsonDocument this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.CheckSupportedOptionsJsonReaderOptionsString">
+            <summary>设置 JsonDocument.CheckSupportedOptions(JsonReaderOptions readerOptions, String paramName) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.ClearAndReturnArraySegmentOfByte">
+            <summary>设置 JsonDocument.ClearAndReturn(ArraySegment`1 rented) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.CloneElementInt32">
+            <summary>设置 JsonDocument.CloneElement(JsonDocument this, Int32 index) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.Dispose">
+            <summary>设置 JsonDocument.Dispose(JsonDocument this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.GetArrayIndexElementInt32Int32">
+            <summary>设置 JsonDocument.GetArrayIndexElement(JsonDocument this, Int32 currentIndex, Int32 arrayIndex) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.GetArrayLengthInt32">
+            <summary>设置 JsonDocument.GetArrayLength(JsonDocument this, Int32 index) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.GetEndIndexInt32Boolean">
+            <summary>设置 JsonDocument.GetEndIndex(JsonDocument this, Int32 index, Boolean includeEndElement) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.GetJsonTokenTypeInt32">
+            <summary>设置 JsonDocument.GetJsonTokenType(JsonDocument this, Int32 index) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.GetNameOfPropertyValueInt32">
+            <summary>设置 JsonDocument.GetNameOfPropertyValue(JsonDocument this, Int32 index) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.GetPropertyRawValueAsStringInt32">
+            <summary>设置 JsonDocument.GetPropertyRawValueAsString(JsonDocument this, Int32 valueIndex) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.GetPropertyRawValueInt32">
+            <summary>设置 JsonDocument.GetPropertyRawValue(JsonDocument this, Int32 valueIndex) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.GetRawValueAsStringInt32">
+            <summary>设置 JsonDocument.GetRawValueAsString(JsonDocument this, Int32 index) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.GetRawValueInt32Boolean">
+            <summary>设置 JsonDocument.GetRawValue(JsonDocument this, Int32 index, Boolean includeQuotes) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.GetStringInt32JsonTokenType">
+            <summary>设置 JsonDocument.GetString(JsonDocument this, Int32 index, JsonTokenType expectedType) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.IsDisposableGet">
+            <summary>设置 JsonDocument.get_IsDisposable(JsonDocument this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.ParseAsyncCoreStreamJsonDocumentOptionsCancellationToken">
+            <summary>设置 JsonDocument.ParseAsyncCore(Stream utf8Json, JsonDocumentOptions options, CancellationToken cancellationToken) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.ParseAsyncStreamJsonDocumentOptionsCancellationToken">
+            <summary>设置 JsonDocument.ParseAsync(Stream utf8Json, JsonDocumentOptions options, CancellationToken cancellationToken) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.ParseReadOnlyMemoryOfByteJsonDocumentOptions">
+            <summary>设置 JsonDocument.Parse(ReadOnlyMemory`1 utf8Json, JsonDocumentOptions options) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.ParseReadOnlyMemoryOfByteJsonReaderOptionsByteArray">
+            <summary>设置 JsonDocument.Parse(ReadOnlyMemory`1 utf8Json, JsonReaderOptions readerOptions, Byte[] extraRentedBytes) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.ParseReadOnlyMemoryOfCharJsonDocumentOptions">
+            <summary>设置 JsonDocument.Parse(ReadOnlyMemory`1 json, JsonDocumentOptions options) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.ParseReadOnlySequenceOfByteJsonDocumentOptions">
+            <summary>设置 JsonDocument.Parse(ReadOnlySequence`1 utf8Json, JsonDocumentOptions options) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.ParseStreamJsonDocumentOptions">
+            <summary>设置 JsonDocument.Parse(Stream utf8Json, JsonDocumentOptions options) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.ParseStringJsonDocumentOptions">
+            <summary>设置 JsonDocument.Parse(String json, JsonDocumentOptions options) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.ReadToEndAsyncStreamCancellationToken">
+            <summary>设置 JsonDocument.ReadToEndAsync(Stream stream, CancellationToken cancellationToken) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.ReadToEndStream">
+            <summary>设置 JsonDocument.ReadToEnd(Stream stream) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.RootElementGet">
+            <summary>设置 JsonDocument.get_RootElement(JsonDocument this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.TryGetValueInt32ByteArrayOut">
+            <summary>设置 JsonDocument.TryGetValue(JsonDocument this, Int32 index, Byte[]* value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.TryGetValueInt32ByteOut">
+            <summary>设置 JsonDocument.TryGetValue(JsonDocument this, Int32 index, Byte* value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.TryGetValueInt32DateTimeOffsetOut">
+            <summary>设置 JsonDocument.TryGetValue(JsonDocument this, Int32 index, DateTimeOffset* value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.TryGetValueInt32DateTimeOut">
+            <summary>设置 JsonDocument.TryGetValue(JsonDocument this, Int32 index, DateTime* value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.TryGetValueInt32DecimalOut">
+            <summary>设置 JsonDocument.TryGetValue(JsonDocument this, Int32 index, Decimal* value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.TryGetValueInt32DoubleOut">
+            <summary>设置 JsonDocument.TryGetValue(JsonDocument this, Int32 index, Double* value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.TryGetValueInt32GuidOut">
+            <summary>设置 JsonDocument.TryGetValue(JsonDocument this, Int32 index, Guid* value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.TryGetValueInt32Int16Out">
+            <summary>设置 JsonDocument.TryGetValue(JsonDocument this, Int32 index, Int16* value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.TryGetValueInt32Int32Out">
+            <summary>设置 JsonDocument.TryGetValue(JsonDocument this, Int32 index, Int32* value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.TryGetValueInt32Int64Out">
+            <summary>设置 JsonDocument.TryGetValue(JsonDocument this, Int32 index, Int64* value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.TryGetValueInt32SByteOut">
+            <summary>设置 JsonDocument.TryGetValue(JsonDocument this, Int32 index, SByte* value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.TryGetValueInt32SingleOut">
+            <summary>设置 JsonDocument.TryGetValue(JsonDocument this, Int32 index, Single* value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.TryGetValueInt32UInt16Out">
+            <summary>设置 JsonDocument.TryGetValue(JsonDocument this, Int32 index, UInt16* value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.TryGetValueInt32UInt32Out">
+            <summary>设置 JsonDocument.TryGetValue(JsonDocument this, Int32 index, UInt32* value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.TryGetValueInt32UInt64Out">
+            <summary>设置 JsonDocument.TryGetValue(JsonDocument this, Int32 index, UInt64* value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.WriteComplexElementInt32Utf8JsonWriter">
+            <summary>设置 JsonDocument.WriteComplexElement(JsonDocument this, Int32 index, Utf8JsonWriter writer) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.WriteElementToInt32Utf8JsonWriter">
+            <summary>设置 JsonDocument.WriteElementTo(JsonDocument this, Int32 index, Utf8JsonWriter writer) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocument.WriteToUtf8JsonWriter">
+            <summary>设置 JsonDocument.WriteTo(JsonDocument this, Utf8JsonWriter writer) 的 填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Fakes.ShimJsonDocumentOptions">
+            <summary>System.Text.Json.JsonDocumentOptions 的填充码类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonDocumentOptions.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="T:System.Text.Json.Fakes.ShimJsonDocumentOptions.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonDocumentOptions.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonDocumentOptions.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonDocumentOptions.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="T:System.Text.Json.Fakes.ShimJsonElement">
+            <summary>System.Text.Json.JsonElement 的填充码类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonElement.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="T:System.Text.Json.Fakes.ShimJsonElement.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonElement.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonElement.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonElement.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="T:System.Text.Json.Fakes.ShimJsonElement.ShimArrayEnumerator">
+            <summary>System.Text.Json.JsonElement.ArrayEnumerator 的填充码类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonElement.ShimArrayEnumerator.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="T:System.Text.Json.Fakes.ShimJsonElement.ShimArrayEnumerator.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonElement.ShimArrayEnumerator.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonElement.ShimArrayEnumerator.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonElement.ShimArrayEnumerator.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="T:System.Text.Json.Fakes.ShimJsonElement.ShimObjectEnumerator">
+            <summary>System.Text.Json.JsonElement.ObjectEnumerator 的填充码类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonElement.ShimObjectEnumerator.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="T:System.Text.Json.Fakes.ShimJsonElement.ShimObjectEnumerator.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonElement.ShimObjectEnumerator.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonElement.ShimObjectEnumerator.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonElement.ShimObjectEnumerator.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="T:System.Text.Json.Fakes.ShimJsonEncodedText">
+            <summary>System.Text.Json.JsonEncodedText 的填充码类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonEncodedText.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="T:System.Text.Json.Fakes.ShimJsonEncodedText.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonEncodedText.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonEncodedText.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonEncodedText.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonEncodedText.EncodeStringJavaScriptEncoder">
+            <summary>设置 JsonEncodedText.Encode(String value, JavaScriptEncoder encoder) 的 填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Fakes.ShimJsonException">
+            <summary>System.Text.Json.JsonException 的填充码类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonException.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonException.#ctor(System.Text.Json.JsonException)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Fakes.ShimJsonException.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonException.AllInstances.AppendPathInformationGet">
+            <summary>设置 JsonException.get_AppendPathInformation(JsonException this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonException.AllInstances.AppendPathInformationSetBoolean">
+            <summary>设置 JsonException.set_AppendPathInformation(JsonException this, Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonException.AllInstances.BytePositionInLineGet">
+            <summary>设置 JsonException.get_BytePositionInLine(JsonException this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonException.AllInstances.BytePositionInLineSetNullableOfInt64">
+            <summary>设置 JsonException.set_BytePositionInLine(JsonException this, Nullable`1 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonException.AllInstances.GetObjectDataSerializationInfoStreamingContext">
+            <summary>设置 JsonException.GetObjectData(JsonException this, SerializationInfo info, StreamingContext context) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonException.AllInstances.LineNumberGet">
+            <summary>设置 JsonException.get_LineNumber(JsonException this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonException.AllInstances.LineNumberSetNullableOfInt64">
+            <summary>设置 JsonException.set_LineNumber(JsonException this, Nullable`1 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonException.AllInstances.MessageGet">
+            <summary>设置 JsonException.get_Message(JsonException this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonException.AllInstances.PathGet">
+            <summary>设置 JsonException.get_Path(JsonException this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonException.AllInstances.PathSetString">
+            <summary>设置 JsonException.set_Path(JsonException this, String value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonException.AllInstances.SetMessageString">
+            <summary>设置 JsonException.SetMessage(JsonException this, String message) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonException.AppendPathInformationGet">
+            <summary>设置 JsonException.get_AppendPathInformation(JsonException this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonException.AppendPathInformationSetBoolean">
+            <summary>设置 JsonException.set_AppendPathInformation(JsonException this, Boolean value) 的 填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonException.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonException.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonException.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonException.BytePositionInLineGet">
+            <summary>设置 JsonException.get_BytePositionInLine(JsonException this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonException.BytePositionInLineSetNullableOfInt64">
+            <summary>设置 JsonException.set_BytePositionInLine(JsonException this, Nullable`1 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonException.Constructor">
+            <summary>设置 JsonException.JsonException(JsonException this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonException.ConstructorSerializationInfoStreamingContext">
+            <summary>设置 JsonException.JsonException(JsonException this, SerializationInfo info, StreamingContext context) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonException.ConstructorString">
+            <summary>设置 JsonException.JsonException(JsonException this, String message) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonException.ConstructorStringException">
+            <summary>设置 JsonException.JsonException(JsonException this, String message, Exception innerException) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonException.ConstructorStringStringNullableOfInt64NullableOfInt64">
+            <summary>设置 JsonException.JsonException(JsonException this, String message, String path, Nullable`1 lineNumber, Nullable`1 bytePositionInLine) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonException.ConstructorStringStringNullableOfInt64NullableOfInt64Exception">
+            <summary>设置 JsonException.JsonException(JsonException this, String message, String path, Nullable`1 lineNumber, Nullable`1 bytePositionInLine, Exception innerException) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>设置 JsonException.GetObjectData(JsonException this, SerializationInfo info, StreamingContext context) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonException.LineNumberGet">
+            <summary>设置 JsonException.get_LineNumber(JsonException this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonException.LineNumberSetNullableOfInt64">
+            <summary>设置 JsonException.set_LineNumber(JsonException this, Nullable`1 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonException.MessageGet">
+            <summary>设置 JsonException.get_Message(JsonException this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonException.PathGet">
+            <summary>设置 JsonException.get_Path(JsonException this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonException.PathSetString">
+            <summary>设置 JsonException.set_Path(JsonException this, String value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonException.SetMessageString">
+            <summary>设置 JsonException.SetMessage(JsonException this, String message) 的 填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Fakes.ShimJsonNamingPolicy">
+            <summary>System.Text.Json.JsonNamingPolicy 的填充码类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonNamingPolicy.#ctor(System.Text.Json.JsonNamingPolicy)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Fakes.ShimJsonNamingPolicy.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonNamingPolicy.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonNamingPolicy.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonNamingPolicy.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonNamingPolicy.CamelCaseGet">
+            <summary>设置 JsonNamingPolicy.get_CamelCase() 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonNamingPolicy.Constructor">
+            <summary>设置 JsonNamingPolicy.JsonNamingPolicy(JsonNamingPolicy this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonNamingPolicy.DefaultGet">
+            <summary>设置 JsonNamingPolicy.get_Default() 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonNamingPolicy.StaticConstructor">
+            <summary>设置 JsonNamingPolicy.JsonNamingPolicy() 的 填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Fakes.ShimJsonProperty">
+            <summary>System.Text.Json.JsonProperty 的填充码类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonProperty.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="T:System.Text.Json.Fakes.ShimJsonProperty.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonProperty.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonProperty.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonProperty.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="T:System.Text.Json.Fakes.ShimJsonReaderOptions">
+            <summary>System.Text.Json.JsonReaderOptions 的填充码类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonReaderOptions.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="T:System.Text.Json.Fakes.ShimJsonReaderOptions.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonReaderOptions.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonReaderOptions.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonReaderOptions.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="T:System.Text.Json.Fakes.ShimJsonReaderState">
+            <summary>System.Text.Json.JsonReaderState 的填充码类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonReaderState.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="T:System.Text.Json.Fakes.ShimJsonReaderState.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonReaderState.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonReaderState.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonReaderState.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="T:System.Text.Json.Fakes.ShimJsonSerializer">
+            <summary>System.Text.Json.JsonSerializer 的填充码类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonSerializer.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonSerializer.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonSerializer.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializer.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializer.CheckSupportedOptionsJsonReaderOptionsString">
+            <summary>设置 JsonSerializer.CheckSupportedOptions(JsonReaderOptions readerOptions, String paramName) 的 填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonSerializer.DeserializeAsyncOf1StreamJsonSerializerOptionsCancellationToken``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.IO.Stream,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken,System.Threading.Tasks.ValueTask{``0}})">
+            <summary>设置 JsonSerializer.DeserializeAsync(Stream utf8Json, JsonSerializerOptions options, CancellationToken cancellationToken) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializer.DeserializeAsyncStreamTypeJsonSerializerOptionsCancellationToken">
+            <summary>设置 JsonSerializer.DeserializeAsync(Stream utf8Json, Type returnType, JsonSerializerOptions options, CancellationToken cancellationToken) 的 填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonSerializer.DeserializeOf1StringJsonSerializerOptions``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.String,System.Text.Json.JsonSerializerOptions,``0})">
+            <summary>设置 JsonSerializer.Deserialize(String json, JsonSerializerOptions options) 的 填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonSerializer.DeserializeOf1StringTypeJsonSerializerOptions``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.String,System.Type,System.Text.Json.JsonSerializerOptions,``0})">
+            <summary>设置 JsonSerializer.Deserialize(String json, Type returnType, JsonSerializerOptions options) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializer.DeserializeStringTypeJsonSerializerOptions">
+            <summary>设置 JsonSerializer.Deserialize(String json, Type returnType, JsonSerializerOptions options) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializer.IsValidNumberHandlingValueJsonNumberHandling">
+            <summary>设置 JsonSerializer.IsValidNumberHandlingValue(JsonNumberHandling handling) 的 填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonSerializer.ReadAsyncOf1StreamTypeJsonSerializerOptionsCancellationToken``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.IO.Stream,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken,System.Threading.Tasks.ValueTask{``0}})">
+            <summary>设置 JsonSerializer.ReadAsync(Stream utf8Json, Type returnType, JsonSerializerOptions options, CancellationToken cancellationToken) 的 填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonSerializer.SerializeAsyncOf1StreamM0JsonSerializerOptionsCancellationToken``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.IO.Stream,``0,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken,System.Threading.Tasks.Task})">
+            <summary>设置 JsonSerializer.SerializeAsync(Stream utf8Json, !!0 value, JsonSerializerOptions options, CancellationToken cancellationToken) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializer.SerializeAsyncStreamObjectTypeJsonSerializerOptionsCancellationToken">
+            <summary>设置 JsonSerializer.SerializeAsync(Stream utf8Json, Object value, Type inputType, JsonSerializerOptions options, CancellationToken cancellationToken) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializer.SerializeObjectTypeJsonSerializerOptions">
+            <summary>设置 JsonSerializer.Serialize(Object value, Type inputType, JsonSerializerOptions options) 的 填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonSerializer.SerializeOf1M0JsonSerializerOptions``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0,System.Text.Json.JsonSerializerOptions,System.String})">
+            <summary>设置 JsonSerializer.Serialize(!!0 value, JsonSerializerOptions options) 的 填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonSerializer.SerializeOf1M0RefTypeJsonSerializerOptions``1(Microsoft.QualityTools.Testing.Fakes.Delegates.SystemTextJsonDelegates.Ref0Func4{``0,System.Type,System.Text.Json.JsonSerializerOptions,System.String})">
+            <summary>设置 JsonSerializer.Serialize(!!0&amp; value, Type inputType, JsonSerializerOptions options) 的 填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonSerializer.SerializeOf1Utf8JsonWriterM0JsonSerializerOptions``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Text.Json.Utf8JsonWriter,``0,System.Text.Json.JsonSerializerOptions})">
+            <summary>设置 JsonSerializer.Serialize(Utf8JsonWriter writer, !!0 value, JsonSerializerOptions options) 的 填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonSerializer.SerializeOf1Utf8JsonWriterM0RefTypeJsonSerializerOptions``1(Microsoft.QualityTools.Testing.Fakes.Delegates.SystemTextJsonDelegates.Ref1Action4{System.Text.Json.Utf8JsonWriter,``0,System.Type,System.Text.Json.JsonSerializerOptions})">
+            <summary>设置 JsonSerializer.Serialize(Utf8JsonWriter writer, !!0&amp; value, Type type, JsonSerializerOptions options) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializer.SerializeToUtf8BytesObjectTypeJsonSerializerOptions">
+            <summary>设置 JsonSerializer.SerializeToUtf8Bytes(Object value, Type inputType, JsonSerializerOptions options) 的 填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonSerializer.SerializeToUtf8BytesOf1M0JsonSerializerOptions``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0,System.Text.Json.JsonSerializerOptions,System.Byte[]})">
+            <summary>设置 JsonSerializer.SerializeToUtf8Bytes(!!0 value, JsonSerializerOptions options) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializer.SerializeUtf8JsonWriterObjectTypeJsonSerializerOptions">
+            <summary>设置 JsonSerializer.Serialize(Utf8JsonWriter writer, Object value, Type inputType, JsonSerializerOptions options) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializer.StaticConstructor">
+            <summary>设置 JsonSerializer.JsonSerializer() 的 填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonSerializer.ValidateValueIsCorrectTypeOf1ObjectString``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Object,System.String})">
+            <summary>设置 JsonSerializer.ValidateValueIsCorrectType(Object value, String referenceId) 的 填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonSerializer.WriteAsyncCoreOf1StreamM0TypeJsonSerializerOptionsCancellationToken``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.IO.Stream,``0,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken,System.Threading.Tasks.Task})">
+            <summary>设置 JsonSerializer.WriteAsyncCore(Stream utf8Json, !!0 value, Type inputType, JsonSerializerOptions options, CancellationToken cancellationToken) 的 填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonSerializer.WriteCoreBytesOf1M0RefTypeJsonSerializerOptions``1(Microsoft.QualityTools.Testing.Fakes.Delegates.SystemTextJsonDelegates.Ref0Func4{``0,System.Type,System.Text.Json.JsonSerializerOptions,System.Byte[]})">
+            <summary>设置 JsonSerializer.WriteCoreBytes(!!0&amp; value, Type inputType, JsonSerializerOptions options) 的 填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonSerializer.WriteCoreOf1Utf8JsonWriterM0RefTypeJsonSerializerOptions``1(Microsoft.QualityTools.Testing.Fakes.Delegates.SystemTextJsonDelegates.Ref1Action4{System.Text.Json.Utf8JsonWriter,``0,System.Type,System.Text.Json.JsonSerializerOptions})">
+            <summary>设置 JsonSerializer.WriteCore(Utf8JsonWriter writer, !!0&amp; value, Type inputType, JsonSerializerOptions options) 的 填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Fakes.ShimJsonSerializerOptions">
+            <summary>System.Text.Json.JsonSerializerOptions 的填充码类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonSerializerOptions.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonSerializerOptions.#ctor(System.Text.Json.JsonSerializerOptions)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.AllowTrailingCommasGet">
+            <summary>设置 JsonSerializerOptions.get_AllowTrailingCommas(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.AllowTrailingCommasSetBoolean">
+            <summary>设置 JsonSerializerOptions.set_AllowTrailingCommas(JsonSerializerOptions this, Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.ConvertersGet">
+            <summary>设置 JsonSerializerOptions.get_Converters(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.DefaultBufferSizeGet">
+            <summary>设置 JsonSerializerOptions.get_DefaultBufferSize(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.DefaultBufferSizeSetInt32">
+            <summary>设置 JsonSerializerOptions.set_DefaultBufferSize(JsonSerializerOptions this, Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.DefaultIgnoreConditionGet">
+            <summary>设置 JsonSerializerOptions.get_DefaultIgnoreCondition(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.DefaultIgnoreConditionSetJsonIgnoreCondition">
+            <summary>设置 JsonSerializerOptions.set_DefaultIgnoreCondition(JsonSerializerOptions this, JsonIgnoreCondition value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.DetermineConverterTypeTypeMemberInfo">
+            <summary>设置 JsonSerializerOptions.DetermineConverter(JsonSerializerOptions this, Type parentClassType, Type runtimePropertyType, MemberInfo memberInfo) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.DictionaryKeyPolicyGet">
+            <summary>设置 JsonSerializerOptions.get_DictionaryKeyPolicy(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.DictionaryKeyPolicySetJsonNamingPolicy">
+            <summary>设置 JsonSerializerOptions.set_DictionaryKeyPolicy(JsonSerializerOptions this, JsonNamingPolicy value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.EffectiveMaxDepthGet">
+            <summary>设置 JsonSerializerOptions.get_EffectiveMaxDepth(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.EffectiveMaxDepthSetInt32">
+            <summary>设置 JsonSerializerOptions.set_EffectiveMaxDepth(JsonSerializerOptions this, Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.EncoderGet">
+            <summary>设置 JsonSerializerOptions.get_Encoder(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.EncoderSetJavaScriptEncoder">
+            <summary>设置 JsonSerializerOptions.set_Encoder(JsonSerializerOptions this, JavaScriptEncoder value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.GetConverterFromAttributeJsonConverterAttributeTypeTypeMemberInfo">
+            <summary>设置 JsonSerializerOptions.GetConverterFromAttribute(JsonSerializerOptions this, JsonConverterAttribute converterAttribute, Type typeToConvert, Type classTypeAttributeIsOn, MemberInfo memberInfo) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.GetConverterType">
+            <summary>设置 JsonSerializerOptions.GetConverter(JsonSerializerOptions this, Type typeToConvert) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.GetDictionaryKeyConverterType">
+            <summary>设置 JsonSerializerOptions.GetDictionaryKeyConverter(JsonSerializerOptions this, Type keyType) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.GetReaderOptions">
+            <summary>设置 JsonSerializerOptions.GetReaderOptions(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.GetWriterOptions">
+            <summary>设置 JsonSerializerOptions.GetWriterOptions(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.IgnoreNullValuesGet">
+            <summary>设置 JsonSerializerOptions.get_IgnoreNullValues(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.IgnoreNullValuesSetBoolean">
+            <summary>设置 JsonSerializerOptions.set_IgnoreNullValues(JsonSerializerOptions this, Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.IgnoreReadOnlyFieldsGet">
+            <summary>设置 JsonSerializerOptions.get_IgnoreReadOnlyFields(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.IgnoreReadOnlyFieldsSetBoolean">
+            <summary>设置 JsonSerializerOptions.set_IgnoreReadOnlyFields(JsonSerializerOptions this, Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.IgnoreReadOnlyPropertiesGet">
+            <summary>设置 JsonSerializerOptions.get_IgnoreReadOnlyProperties(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.IgnoreReadOnlyPropertiesSetBoolean">
+            <summary>设置 JsonSerializerOptions.set_IgnoreReadOnlyProperties(JsonSerializerOptions this, Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.IncludeFieldsGet">
+            <summary>设置 JsonSerializerOptions.get_IncludeFields(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.IncludeFieldsSetBoolean">
+            <summary>设置 JsonSerializerOptions.set_IncludeFields(JsonSerializerOptions this, Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.MaxDepthGet">
+            <summary>设置 JsonSerializerOptions.get_MaxDepth(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.MaxDepthSetInt32">
+            <summary>设置 JsonSerializerOptions.set_MaxDepth(JsonSerializerOptions this, Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.NumberHandlingGet">
+            <summary>设置 JsonSerializerOptions.get_NumberHandling(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.NumberHandlingSetJsonNumberHandling">
+            <summary>设置 JsonSerializerOptions.set_NumberHandling(JsonSerializerOptions this, JsonNumberHandling value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.PropertyNameCaseInsensitiveGet">
+            <summary>设置 JsonSerializerOptions.get_PropertyNameCaseInsensitive(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.PropertyNameCaseInsensitiveSetBoolean">
+            <summary>设置 JsonSerializerOptions.set_PropertyNameCaseInsensitive(JsonSerializerOptions this, Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.PropertyNamingPolicyGet">
+            <summary>设置 JsonSerializerOptions.get_PropertyNamingPolicy(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.PropertyNamingPolicySetJsonNamingPolicy">
+            <summary>设置 JsonSerializerOptions.set_PropertyNamingPolicy(JsonSerializerOptions this, JsonNamingPolicy value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.ReadCommentHandlingGet">
+            <summary>设置 JsonSerializerOptions.get_ReadCommentHandling(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.ReadCommentHandlingSetJsonCommentHandling">
+            <summary>设置 JsonSerializerOptions.set_ReadCommentHandling(JsonSerializerOptions this, JsonCommentHandling value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.ReferenceHandlerGet">
+            <summary>设置 JsonSerializerOptions.get_ReferenceHandler(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.ReferenceHandlerSetReferenceHandler">
+            <summary>设置 JsonSerializerOptions.set_ReferenceHandler(JsonSerializerOptions this, ReferenceHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.TypeIsCachedType">
+            <summary>设置 JsonSerializerOptions.TypeIsCached(JsonSerializerOptions this, Type type) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.VerifyMutable">
+            <summary>设置 JsonSerializerOptions.VerifyMutable(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.WriteIndentedGet">
+            <summary>设置 JsonSerializerOptions.get_WriteIndented(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllInstances.WriteIndentedSetBoolean">
+            <summary>设置 JsonSerializerOptions.set_WriteIndented(JsonSerializerOptions this, Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllowTrailingCommasGet">
+            <summary>设置 JsonSerializerOptions.get_AllowTrailingCommas(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.AllowTrailingCommasSetBoolean">
+            <summary>设置 JsonSerializerOptions.set_AllowTrailingCommas(JsonSerializerOptions this, Boolean value) 的 填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonSerializerOptions.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonSerializerOptions.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.Constructor">
+            <summary>设置 JsonSerializerOptions.JsonSerializerOptions(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.ConstructorJsonSerializerDefaults">
+            <summary>设置 JsonSerializerOptions.JsonSerializerOptions(JsonSerializerOptions this, JsonSerializerDefaults defaults) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.ConstructorJsonSerializerOptions">
+            <summary>设置 JsonSerializerOptions.JsonSerializerOptions(JsonSerializerOptions this, JsonSerializerOptions options) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.ConvertersGet">
+            <summary>设置 JsonSerializerOptions.get_Converters(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.DefaultBufferSizeGet">
+            <summary>设置 JsonSerializerOptions.get_DefaultBufferSize(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.DefaultBufferSizeSetInt32">
+            <summary>设置 JsonSerializerOptions.set_DefaultBufferSize(JsonSerializerOptions this, Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.DefaultIgnoreConditionGet">
+            <summary>设置 JsonSerializerOptions.get_DefaultIgnoreCondition(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.DefaultIgnoreConditionSetJsonIgnoreCondition">
+            <summary>设置 JsonSerializerOptions.set_DefaultIgnoreCondition(JsonSerializerOptions this, JsonIgnoreCondition value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.DetermineConverterTypeTypeMemberInfo">
+            <summary>设置 JsonSerializerOptions.DetermineConverter(JsonSerializerOptions this, Type parentClassType, Type runtimePropertyType, MemberInfo memberInfo) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.DictionaryKeyPolicyGet">
+            <summary>设置 JsonSerializerOptions.get_DictionaryKeyPolicy(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.DictionaryKeyPolicySetJsonNamingPolicy">
+            <summary>设置 JsonSerializerOptions.set_DictionaryKeyPolicy(JsonSerializerOptions this, JsonNamingPolicy value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.EffectiveMaxDepthGet">
+            <summary>设置 JsonSerializerOptions.get_EffectiveMaxDepth(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.EffectiveMaxDepthSetInt32">
+            <summary>设置 JsonSerializerOptions.set_EffectiveMaxDepth(JsonSerializerOptions this, Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.EncoderGet">
+            <summary>设置 JsonSerializerOptions.get_Encoder(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.EncoderSetJavaScriptEncoder">
+            <summary>设置 JsonSerializerOptions.set_Encoder(JsonSerializerOptions this, JavaScriptEncoder value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.GetAttributeThatCanHaveMultipleTypeType">
+            <summary>设置 JsonSerializerOptions.GetAttributeThatCanHaveMultiple(Type classType, Type attributeType) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.GetAttributeThatCanHaveMultipleTypeTypeMemberInfo">
+            <summary>设置 JsonSerializerOptions.GetAttributeThatCanHaveMultiple(Type classType, Type attributeType, MemberInfo memberInfo) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.GetAttributeThatCanHaveMultipleTypeTypeMemberInfoObjectArray">
+            <summary>设置 JsonSerializerOptions.GetAttributeThatCanHaveMultiple(Type attributeType, Type classType, MemberInfo memberInfo, Object[] attributes) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.GetConverterFromAttributeJsonConverterAttributeTypeTypeMemberInfo">
+            <summary>设置 JsonSerializerOptions.GetConverterFromAttribute(JsonSerializerOptions this, JsonConverterAttribute converterAttribute, Type typeToConvert, Type classTypeAttributeIsOn, MemberInfo memberInfo) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.GetConverterType">
+            <summary>设置 JsonSerializerOptions.GetConverter(JsonSerializerOptions this, Type typeToConvert) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.GetDefaultSimpleConverters">
+            <summary>设置 JsonSerializerOptions.GetDefaultSimpleConverters() 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.GetDictionaryKeyConverterType">
+            <summary>设置 JsonSerializerOptions.GetDictionaryKeyConverter(JsonSerializerOptions this, Type keyType) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.GetDictionaryKeyConverters">
+            <summary>设置 JsonSerializerOptions.GetDictionaryKeyConverters() 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.GetReaderOptions">
+            <summary>设置 JsonSerializerOptions.GetReaderOptions(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.GetWriterOptions">
+            <summary>设置 JsonSerializerOptions.GetWriterOptions(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.IgnoreNullValuesGet">
+            <summary>设置 JsonSerializerOptions.get_IgnoreNullValues(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.IgnoreNullValuesSetBoolean">
+            <summary>设置 JsonSerializerOptions.set_IgnoreNullValues(JsonSerializerOptions this, Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.IgnoreReadOnlyFieldsGet">
+            <summary>设置 JsonSerializerOptions.get_IgnoreReadOnlyFields(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.IgnoreReadOnlyFieldsSetBoolean">
+            <summary>设置 JsonSerializerOptions.set_IgnoreReadOnlyFields(JsonSerializerOptions this, Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.IgnoreReadOnlyPropertiesGet">
+            <summary>设置 JsonSerializerOptions.get_IgnoreReadOnlyProperties(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.IgnoreReadOnlyPropertiesSetBoolean">
+            <summary>设置 JsonSerializerOptions.set_IgnoreReadOnlyProperties(JsonSerializerOptions this, Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.IncludeFieldsGet">
+            <summary>设置 JsonSerializerOptions.get_IncludeFields(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.IncludeFieldsSetBoolean">
+            <summary>设置 JsonSerializerOptions.set_IncludeFields(JsonSerializerOptions this, Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.MaxDepthGet">
+            <summary>设置 JsonSerializerOptions.get_MaxDepth(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.MaxDepthSetInt32">
+            <summary>设置 JsonSerializerOptions.set_MaxDepth(JsonSerializerOptions this, Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.NumberHandlingGet">
+            <summary>设置 JsonSerializerOptions.get_NumberHandling(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.NumberHandlingSetJsonNumberHandling">
+            <summary>设置 JsonSerializerOptions.set_NumberHandling(JsonSerializerOptions this, JsonNumberHandling value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.PropertyNameCaseInsensitiveGet">
+            <summary>设置 JsonSerializerOptions.get_PropertyNameCaseInsensitive(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.PropertyNameCaseInsensitiveSetBoolean">
+            <summary>设置 JsonSerializerOptions.set_PropertyNameCaseInsensitive(JsonSerializerOptions this, Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.PropertyNamingPolicyGet">
+            <summary>设置 JsonSerializerOptions.get_PropertyNamingPolicy(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.PropertyNamingPolicySetJsonNamingPolicy">
+            <summary>设置 JsonSerializerOptions.set_PropertyNamingPolicy(JsonSerializerOptions this, JsonNamingPolicy value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.ReadCommentHandlingGet">
+            <summary>设置 JsonSerializerOptions.get_ReadCommentHandling(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.ReadCommentHandlingSetJsonCommentHandling">
+            <summary>设置 JsonSerializerOptions.set_ReadCommentHandling(JsonSerializerOptions this, JsonCommentHandling value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.ReferenceHandlerGet">
+            <summary>设置 JsonSerializerOptions.get_ReferenceHandler(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.ReferenceHandlerSetReferenceHandler">
+            <summary>设置 JsonSerializerOptions.set_ReferenceHandler(JsonSerializerOptions this, ReferenceHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.StaticConstructor">
+            <summary>设置 JsonSerializerOptions.JsonSerializerOptions() 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.TypeIsCachedType">
+            <summary>设置 JsonSerializerOptions.TypeIsCached(JsonSerializerOptions this, Type type) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.VerifyMutable">
+            <summary>设置 JsonSerializerOptions.VerifyMutable(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.WriteIndentedGet">
+            <summary>设置 JsonSerializerOptions.get_WriteIndented(JsonSerializerOptions this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonSerializerOptions.WriteIndentedSetBoolean">
+            <summary>设置 JsonSerializerOptions.set_WriteIndented(JsonSerializerOptions this, Boolean value) 的 填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Fakes.ShimJsonWriterOptions">
+            <summary>System.Text.Json.JsonWriterOptions 的填充码类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonWriterOptions.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="T:System.Text.Json.Fakes.ShimJsonWriterOptions.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonWriterOptions.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimJsonWriterOptions.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimJsonWriterOptions.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="T:System.Text.Json.Fakes.ShimUtf8JsonReader">
+            <summary>System.Text.Json.Utf8JsonReader 的填充码类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimUtf8JsonReader.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="T:System.Text.Json.Fakes.ShimUtf8JsonReader.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimUtf8JsonReader.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimUtf8JsonReader.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonReader.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonReader.IsTokenTypeStringJsonTokenType">
+            <summary>设置 Utf8JsonReader.IsTokenTypeString(JsonTokenType tokenType) 的 填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Fakes.ShimUtf8JsonWriter">
+            <summary>System.Text.Json.Utf8JsonWriter 的填充码类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimUtf8JsonWriter.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimUtf8JsonWriter.#ctor(System.Text.Json.Utf8JsonWriter)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.BytesCommittedGet">
+            <summary>设置 Utf8JsonWriter.get_BytesCommitted(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.BytesCommittedSetInt64">
+            <summary>设置 Utf8JsonWriter.set_BytesCommitted(Utf8JsonWriter this, Int64 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.BytesPendingGet">
+            <summary>设置 Utf8JsonWriter.get_BytesPending(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.BytesPendingSetInt32">
+            <summary>设置 Utf8JsonWriter.set_BytesPending(Utf8JsonWriter this, Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.CheckNotDisposed">
+            <summary>设置 Utf8JsonWriter.CheckNotDisposed(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.CurrentDepthGet">
+            <summary>设置 Utf8JsonWriter.get_CurrentDepth(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.DebuggerDisplayGet">
+            <summary>设置 Utf8JsonWriter.get_DebuggerDisplay(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.Dispose">
+            <summary>设置 Utf8JsonWriter.Dispose(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.DisposeAsync">
+            <summary>设置 Utf8JsonWriter.DisposeAsync(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.FirstCallToGetMemoryInt32">
+            <summary>设置 Utf8JsonWriter.FirstCallToGetMemory(Utf8JsonWriter this, Int32 requiredSize) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.Flush">
+            <summary>设置 Utf8JsonWriter.Flush(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.FlushAsyncCancellationToken">
+            <summary>设置 Utf8JsonWriter.FlushAsync(Utf8JsonWriter this, CancellationToken cancellationToken) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.GrowInt32">
+            <summary>设置 Utf8JsonWriter.Grow(Utf8JsonWriter this, Int32 requiredSize) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.IndentationGet">
+            <summary>设置 Utf8JsonWriter.get_Indentation(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.OptionsGet">
+            <summary>设置 Utf8JsonWriter.get_Options(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.Reset">
+            <summary>设置 Utf8JsonWriter.Reset(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.ResetHelper">
+            <summary>设置 Utf8JsonWriter.ResetHelper(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.ResetIBufferWriterOfByte">
+            <summary>设置 Utf8JsonWriter.Reset(Utf8JsonWriter this, IBufferWriter`1 bufferWriter) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.ResetStream">
+            <summary>设置 Utf8JsonWriter.Reset(Utf8JsonWriter this, Stream utf8Json) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.SetFlagToAddListSeparatorBeforeNextItem">
+            <summary>设置 Utf8JsonWriter.SetFlagToAddListSeparatorBeforeNextItem(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.UpdateBitStackOnStartByte">
+            <summary>设置 Utf8JsonWriter.UpdateBitStackOnStart(Utf8JsonWriter this, Byte token) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.ValidateDepth">
+            <summary>设置 Utf8JsonWriter.ValidateDepth(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.ValidateEndByte">
+            <summary>设置 Utf8JsonWriter.ValidateEnd(Utf8JsonWriter this, Byte token) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.ValidateStart">
+            <summary>设置 Utf8JsonWriter.ValidateStart(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.ValidateWritingProperty">
+            <summary>设置 Utf8JsonWriter.ValidateWritingProperty(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.ValidateWritingPropertyByte">
+            <summary>设置 Utf8JsonWriter.ValidateWritingProperty(Utf8JsonWriter this, Byte token) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.ValidateWritingValue">
+            <summary>设置 Utf8JsonWriter.ValidateWritingValue(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteBooleanJsonEncodedTextBoolean">
+            <summary>设置 Utf8JsonWriter.WriteBoolean(Utf8JsonWriter this, JsonEncodedText propertyName, Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteBooleanStringBoolean">
+            <summary>设置 Utf8JsonWriter.WriteBoolean(Utf8JsonWriter this, String propertyName, Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteBooleanValueBoolean">
+            <summary>设置 Utf8JsonWriter.WriteBooleanValue(Utf8JsonWriter this, Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteCommentValueString">
+            <summary>设置 Utf8JsonWriter.WriteCommentValue(Utf8JsonWriter this, String value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteEndArray">
+            <summary>设置 Utf8JsonWriter.WriteEndArray(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteEndByte">
+            <summary>设置 Utf8JsonWriter.WriteEnd(Utf8JsonWriter this, Byte token) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteEndIndentedByte">
+            <summary>设置 Utf8JsonWriter.WriteEndIndented(Utf8JsonWriter this, Byte token) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteEndMinimizedByte">
+            <summary>设置 Utf8JsonWriter.WriteEndMinimized(Utf8JsonWriter this, Byte token) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteEndObject">
+            <summary>设置 Utf8JsonWriter.WriteEndObject(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteEndSlowByte">
+            <summary>设置 Utf8JsonWriter.WriteEndSlow(Utf8JsonWriter this, Byte token) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteFloatingPointConstantDouble">
+            <summary>设置 Utf8JsonWriter.WriteFloatingPointConstant(Utf8JsonWriter this, Double value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteFloatingPointConstantSingle">
+            <summary>设置 Utf8JsonWriter.WriteFloatingPointConstant(Utf8JsonWriter this, Single value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNullJsonEncodedText">
+            <summary>设置 Utf8JsonWriter.WriteNull(Utf8JsonWriter this, JsonEncodedText propertyName) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNullString">
+            <summary>设置 Utf8JsonWriter.WriteNull(Utf8JsonWriter this, String propertyName) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNullValue">
+            <summary>设置 Utf8JsonWriter.WriteNullValue(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNumberJsonEncodedTextDecimal">
+            <summary>设置 Utf8JsonWriter.WriteNumber(Utf8JsonWriter this, JsonEncodedText propertyName, Decimal value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNumberJsonEncodedTextDouble">
+            <summary>设置 Utf8JsonWriter.WriteNumber(Utf8JsonWriter this, JsonEncodedText propertyName, Double value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNumberJsonEncodedTextInt32">
+            <summary>设置 Utf8JsonWriter.WriteNumber(Utf8JsonWriter this, JsonEncodedText propertyName, Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNumberJsonEncodedTextInt64">
+            <summary>设置 Utf8JsonWriter.WriteNumber(Utf8JsonWriter this, JsonEncodedText propertyName, Int64 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNumberJsonEncodedTextSingle">
+            <summary>设置 Utf8JsonWriter.WriteNumber(Utf8JsonWriter this, JsonEncodedText propertyName, Single value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNumberJsonEncodedTextUInt32">
+            <summary>设置 Utf8JsonWriter.WriteNumber(Utf8JsonWriter this, JsonEncodedText propertyName, UInt32 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNumberJsonEncodedTextUInt64">
+            <summary>设置 Utf8JsonWriter.WriteNumber(Utf8JsonWriter this, JsonEncodedText propertyName, UInt64 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNumberStringDecimal">
+            <summary>设置 Utf8JsonWriter.WriteNumber(Utf8JsonWriter this, String propertyName, Decimal value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNumberStringDouble">
+            <summary>设置 Utf8JsonWriter.WriteNumber(Utf8JsonWriter this, String propertyName, Double value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNumberStringInt32">
+            <summary>设置 Utf8JsonWriter.WriteNumber(Utf8JsonWriter this, String propertyName, Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNumberStringInt64">
+            <summary>设置 Utf8JsonWriter.WriteNumber(Utf8JsonWriter this, String propertyName, Int64 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNumberStringSingle">
+            <summary>设置 Utf8JsonWriter.WriteNumber(Utf8JsonWriter this, String propertyName, Single value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNumberStringUInt32">
+            <summary>设置 Utf8JsonWriter.WriteNumber(Utf8JsonWriter this, String propertyName, UInt32 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNumberStringUInt64">
+            <summary>设置 Utf8JsonWriter.WriteNumber(Utf8JsonWriter this, String propertyName, UInt64 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNumberValueAsStringDecimal">
+            <summary>设置 Utf8JsonWriter.WriteNumberValueAsString(Utf8JsonWriter this, Decimal value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNumberValueAsStringDouble">
+            <summary>设置 Utf8JsonWriter.WriteNumberValueAsString(Utf8JsonWriter this, Double value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNumberValueAsStringInt64">
+            <summary>设置 Utf8JsonWriter.WriteNumberValueAsString(Utf8JsonWriter this, Int64 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNumberValueAsStringSingle">
+            <summary>设置 Utf8JsonWriter.WriteNumberValueAsString(Utf8JsonWriter this, Single value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNumberValueAsStringUInt64">
+            <summary>设置 Utf8JsonWriter.WriteNumberValueAsString(Utf8JsonWriter this, UInt64 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNumberValueDecimal">
+            <summary>设置 Utf8JsonWriter.WriteNumberValue(Utf8JsonWriter this, Decimal value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNumberValueDouble">
+            <summary>设置 Utf8JsonWriter.WriteNumberValue(Utf8JsonWriter this, Double value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNumberValueIndentedDecimal">
+            <summary>设置 Utf8JsonWriter.WriteNumberValueIndented(Utf8JsonWriter this, Decimal value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNumberValueIndentedDouble">
+            <summary>设置 Utf8JsonWriter.WriteNumberValueIndented(Utf8JsonWriter this, Double value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNumberValueIndentedInt64">
+            <summary>设置 Utf8JsonWriter.WriteNumberValueIndented(Utf8JsonWriter this, Int64 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNumberValueIndentedSingle">
+            <summary>设置 Utf8JsonWriter.WriteNumberValueIndented(Utf8JsonWriter this, Single value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNumberValueIndentedUInt64">
+            <summary>设置 Utf8JsonWriter.WriteNumberValueIndented(Utf8JsonWriter this, UInt64 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNumberValueInt32">
+            <summary>设置 Utf8JsonWriter.WriteNumberValue(Utf8JsonWriter this, Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNumberValueInt64">
+            <summary>设置 Utf8JsonWriter.WriteNumberValue(Utf8JsonWriter this, Int64 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNumberValueMinimizedDecimal">
+            <summary>设置 Utf8JsonWriter.WriteNumberValueMinimized(Utf8JsonWriter this, Decimal value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNumberValueMinimizedDouble">
+            <summary>设置 Utf8JsonWriter.WriteNumberValueMinimized(Utf8JsonWriter this, Double value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNumberValueMinimizedInt64">
+            <summary>设置 Utf8JsonWriter.WriteNumberValueMinimized(Utf8JsonWriter this, Int64 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNumberValueMinimizedSingle">
+            <summary>设置 Utf8JsonWriter.WriteNumberValueMinimized(Utf8JsonWriter this, Single value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNumberValueMinimizedUInt64">
+            <summary>设置 Utf8JsonWriter.WriteNumberValueMinimized(Utf8JsonWriter this, UInt64 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNumberValueSingle">
+            <summary>设置 Utf8JsonWriter.WriteNumberValue(Utf8JsonWriter this, Single value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNumberValueUInt32">
+            <summary>设置 Utf8JsonWriter.WriteNumberValue(Utf8JsonWriter this, UInt32 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteNumberValueUInt64">
+            <summary>设置 Utf8JsonWriter.WriteNumberValue(Utf8JsonWriter this, UInt64 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WritePropertyNameBoolean">
+            <summary>设置 Utf8JsonWriter.WritePropertyName(Utf8JsonWriter this, Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WritePropertyNameDateTime">
+            <summary>设置 Utf8JsonWriter.WritePropertyName(Utf8JsonWriter this, DateTime value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WritePropertyNameDateTimeOffset">
+            <summary>设置 Utf8JsonWriter.WritePropertyName(Utf8JsonWriter this, DateTimeOffset value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WritePropertyNameDecimal">
+            <summary>设置 Utf8JsonWriter.WritePropertyName(Utf8JsonWriter this, Decimal value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WritePropertyNameDouble">
+            <summary>设置 Utf8JsonWriter.WritePropertyName(Utf8JsonWriter this, Double value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WritePropertyNameGuid">
+            <summary>设置 Utf8JsonWriter.WritePropertyName(Utf8JsonWriter this, Guid value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WritePropertyNameInt32">
+            <summary>设置 Utf8JsonWriter.WritePropertyName(Utf8JsonWriter this, Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WritePropertyNameInt64">
+            <summary>设置 Utf8JsonWriter.WritePropertyName(Utf8JsonWriter this, Int64 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WritePropertyNameJsonEncodedText">
+            <summary>设置 Utf8JsonWriter.WritePropertyName(Utf8JsonWriter this, JsonEncodedText propertyName) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WritePropertyNameSingle">
+            <summary>设置 Utf8JsonWriter.WritePropertyName(Utf8JsonWriter this, Single value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WritePropertyNameString">
+            <summary>设置 Utf8JsonWriter.WritePropertyName(Utf8JsonWriter this, String propertyName) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WritePropertyNameUInt32">
+            <summary>设置 Utf8JsonWriter.WritePropertyName(Utf8JsonWriter this, UInt32 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WritePropertyNameUInt64">
+            <summary>设置 Utf8JsonWriter.WritePropertyName(Utf8JsonWriter this, UInt64 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteStartArray">
+            <summary>设置 Utf8JsonWriter.WriteStartArray(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteStartArrayJsonEncodedText">
+            <summary>设置 Utf8JsonWriter.WriteStartArray(Utf8JsonWriter this, JsonEncodedText propertyName) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteStartArrayString">
+            <summary>设置 Utf8JsonWriter.WriteStartArray(Utf8JsonWriter this, String propertyName) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteStartByte">
+            <summary>设置 Utf8JsonWriter.WriteStart(Utf8JsonWriter this, Byte token) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteStartIndentedByte">
+            <summary>设置 Utf8JsonWriter.WriteStartIndented(Utf8JsonWriter this, Byte token) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteStartMinimizedByte">
+            <summary>设置 Utf8JsonWriter.WriteStartMinimized(Utf8JsonWriter this, Byte token) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteStartObject">
+            <summary>设置 Utf8JsonWriter.WriteStartObject(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteStartObjectJsonEncodedText">
+            <summary>设置 Utf8JsonWriter.WriteStartObject(Utf8JsonWriter this, JsonEncodedText propertyName) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteStartObjectString">
+            <summary>设置 Utf8JsonWriter.WriteStartObject(Utf8JsonWriter this, String propertyName) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteStartSlowByte">
+            <summary>设置 Utf8JsonWriter.WriteStartSlow(Utf8JsonWriter this, Byte token) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteStringJsonEncodedTextDateTime">
+            <summary>设置 Utf8JsonWriter.WriteString(Utf8JsonWriter this, JsonEncodedText propertyName, DateTime value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteStringJsonEncodedTextDateTimeOffset">
+            <summary>设置 Utf8JsonWriter.WriteString(Utf8JsonWriter this, JsonEncodedText propertyName, DateTimeOffset value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteStringJsonEncodedTextGuid">
+            <summary>设置 Utf8JsonWriter.WriteString(Utf8JsonWriter this, JsonEncodedText propertyName, Guid value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteStringJsonEncodedTextJsonEncodedText">
+            <summary>设置 Utf8JsonWriter.WriteString(Utf8JsonWriter this, JsonEncodedText propertyName, JsonEncodedText value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteStringJsonEncodedTextString">
+            <summary>设置 Utf8JsonWriter.WriteString(Utf8JsonWriter this, JsonEncodedText propertyName, String value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteStringStringDateTime">
+            <summary>设置 Utf8JsonWriter.WriteString(Utf8JsonWriter this, String propertyName, DateTime value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteStringStringDateTimeOffset">
+            <summary>设置 Utf8JsonWriter.WriteString(Utf8JsonWriter this, String propertyName, DateTimeOffset value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteStringStringGuid">
+            <summary>设置 Utf8JsonWriter.WriteString(Utf8JsonWriter this, String propertyName, Guid value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteStringStringJsonEncodedText">
+            <summary>设置 Utf8JsonWriter.WriteString(Utf8JsonWriter this, String propertyName, JsonEncodedText value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteStringStringString">
+            <summary>设置 Utf8JsonWriter.WriteString(Utf8JsonWriter this, String propertyName, String value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteStringValueDateTime">
+            <summary>设置 Utf8JsonWriter.WriteStringValue(Utf8JsonWriter this, DateTime value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteStringValueDateTimeOffset">
+            <summary>设置 Utf8JsonWriter.WriteStringValue(Utf8JsonWriter this, DateTimeOffset value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteStringValueGuid">
+            <summary>设置 Utf8JsonWriter.WriteStringValue(Utf8JsonWriter this, Guid value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteStringValueIndentedDateTime">
+            <summary>设置 Utf8JsonWriter.WriteStringValueIndented(Utf8JsonWriter this, DateTime value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteStringValueIndentedDateTimeOffset">
+            <summary>设置 Utf8JsonWriter.WriteStringValueIndented(Utf8JsonWriter this, DateTimeOffset value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteStringValueIndentedGuid">
+            <summary>设置 Utf8JsonWriter.WriteStringValueIndented(Utf8JsonWriter this, Guid value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteStringValueJsonEncodedText">
+            <summary>设置 Utf8JsonWriter.WriteStringValue(Utf8JsonWriter this, JsonEncodedText value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteStringValueMinimizedDateTime">
+            <summary>设置 Utf8JsonWriter.WriteStringValueMinimized(Utf8JsonWriter this, DateTime value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteStringValueMinimizedDateTimeOffset">
+            <summary>设置 Utf8JsonWriter.WriteStringValueMinimized(Utf8JsonWriter this, DateTimeOffset value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteStringValueMinimizedGuid">
+            <summary>设置 Utf8JsonWriter.WriteStringValueMinimized(Utf8JsonWriter this, Guid value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.AllInstances.WriteStringValueString">
+            <summary>设置 Utf8JsonWriter.WriteStringValue(Utf8JsonWriter this, String value) 的 填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimUtf8JsonWriter.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimUtf8JsonWriter.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimUtf8JsonWriter.Bind(System.IAsyncDisposable)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.ShimUtf8JsonWriter.Bind(System.IDisposable)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.BytesCommittedGet">
+            <summary>设置 Utf8JsonWriter.get_BytesCommitted(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.BytesCommittedSetInt64">
+            <summary>设置 Utf8JsonWriter.set_BytesCommitted(Utf8JsonWriter this, Int64 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.BytesPendingGet">
+            <summary>设置 Utf8JsonWriter.get_BytesPending(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.BytesPendingSetInt32">
+            <summary>设置 Utf8JsonWriter.set_BytesPending(Utf8JsonWriter this, Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.CheckNotDisposed">
+            <summary>设置 Utf8JsonWriter.CheckNotDisposed(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.ConstructorIBufferWriterOfByteJsonWriterOptions">
+            <summary>设置 Utf8JsonWriter.Utf8JsonWriter(Utf8JsonWriter this, IBufferWriter`1 bufferWriter, JsonWriterOptions options) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.ConstructorStreamJsonWriterOptions">
+            <summary>设置 Utf8JsonWriter.Utf8JsonWriter(Utf8JsonWriter this, Stream utf8Json, JsonWriterOptions options) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.CurrentDepthGet">
+            <summary>设置 Utf8JsonWriter.get_CurrentDepth(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.DebuggerDisplayGet">
+            <summary>设置 Utf8JsonWriter.get_DebuggerDisplay(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.Dispose">
+            <summary>设置 Utf8JsonWriter.Dispose(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.DisposeAsync">
+            <summary>设置 Utf8JsonWriter.DisposeAsync(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.FirstCallToGetMemoryInt32">
+            <summary>设置 Utf8JsonWriter.FirstCallToGetMemory(Utf8JsonWriter this, Int32 requiredSize) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.Flush">
+            <summary>设置 Utf8JsonWriter.Flush(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.FlushAsyncCancellationToken">
+            <summary>设置 Utf8JsonWriter.FlushAsync(Utf8JsonWriter this, CancellationToken cancellationToken) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.GrowInt32">
+            <summary>设置 Utf8JsonWriter.Grow(Utf8JsonWriter this, Int32 requiredSize) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.IndentationGet">
+            <summary>设置 Utf8JsonWriter.get_Indentation(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.OptionsGet">
+            <summary>设置 Utf8JsonWriter.get_Options(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.Reset">
+            <summary>设置 Utf8JsonWriter.Reset(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.ResetHelper">
+            <summary>设置 Utf8JsonWriter.ResetHelper(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.ResetIBufferWriterOfByte">
+            <summary>设置 Utf8JsonWriter.Reset(Utf8JsonWriter this, IBufferWriter`1 bufferWriter) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.ResetStream">
+            <summary>设置 Utf8JsonWriter.Reset(Utf8JsonWriter this, Stream utf8Json) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.SetFlagToAddListSeparatorBeforeNextItem">
+            <summary>设置 Utf8JsonWriter.SetFlagToAddListSeparatorBeforeNextItem(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.StaticConstructor">
+            <summary>设置 Utf8JsonWriter.Utf8JsonWriter() 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.UpdateBitStackOnStartByte">
+            <summary>设置 Utf8JsonWriter.UpdateBitStackOnStart(Utf8JsonWriter this, Byte token) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.ValidateDepth">
+            <summary>设置 Utf8JsonWriter.ValidateDepth(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.ValidateEndByte">
+            <summary>设置 Utf8JsonWriter.ValidateEnd(Utf8JsonWriter this, Byte token) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.ValidateStart">
+            <summary>设置 Utf8JsonWriter.ValidateStart(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.ValidateWritingProperty">
+            <summary>设置 Utf8JsonWriter.ValidateWritingProperty(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.ValidateWritingPropertyByte">
+            <summary>设置 Utf8JsonWriter.ValidateWritingProperty(Utf8JsonWriter this, Byte token) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.ValidateWritingValue">
+            <summary>设置 Utf8JsonWriter.ValidateWritingValue(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteBooleanJsonEncodedTextBoolean">
+            <summary>设置 Utf8JsonWriter.WriteBoolean(Utf8JsonWriter this, JsonEncodedText propertyName, Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteBooleanStringBoolean">
+            <summary>设置 Utf8JsonWriter.WriteBoolean(Utf8JsonWriter this, String propertyName, Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteBooleanValueBoolean">
+            <summary>设置 Utf8JsonWriter.WriteBooleanValue(Utf8JsonWriter this, Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteCommentValueString">
+            <summary>设置 Utf8JsonWriter.WriteCommentValue(Utf8JsonWriter this, String value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteEndArray">
+            <summary>设置 Utf8JsonWriter.WriteEndArray(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteEndByte">
+            <summary>设置 Utf8JsonWriter.WriteEnd(Utf8JsonWriter this, Byte token) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteEndIndentedByte">
+            <summary>设置 Utf8JsonWriter.WriteEndIndented(Utf8JsonWriter this, Byte token) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteEndMinimizedByte">
+            <summary>设置 Utf8JsonWriter.WriteEndMinimized(Utf8JsonWriter this, Byte token) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteEndObject">
+            <summary>设置 Utf8JsonWriter.WriteEndObject(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteEndSlowByte">
+            <summary>设置 Utf8JsonWriter.WriteEndSlow(Utf8JsonWriter this, Byte token) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteFloatingPointConstantDouble">
+            <summary>设置 Utf8JsonWriter.WriteFloatingPointConstant(Utf8JsonWriter this, Double value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteFloatingPointConstantSingle">
+            <summary>设置 Utf8JsonWriter.WriteFloatingPointConstant(Utf8JsonWriter this, Single value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNullJsonEncodedText">
+            <summary>设置 Utf8JsonWriter.WriteNull(Utf8JsonWriter this, JsonEncodedText propertyName) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNullString">
+            <summary>设置 Utf8JsonWriter.WriteNull(Utf8JsonWriter this, String propertyName) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNullValue">
+            <summary>设置 Utf8JsonWriter.WriteNullValue(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNumberJsonEncodedTextDecimal">
+            <summary>设置 Utf8JsonWriter.WriteNumber(Utf8JsonWriter this, JsonEncodedText propertyName, Decimal value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNumberJsonEncodedTextDouble">
+            <summary>设置 Utf8JsonWriter.WriteNumber(Utf8JsonWriter this, JsonEncodedText propertyName, Double value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNumberJsonEncodedTextInt32">
+            <summary>设置 Utf8JsonWriter.WriteNumber(Utf8JsonWriter this, JsonEncodedText propertyName, Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNumberJsonEncodedTextInt64">
+            <summary>设置 Utf8JsonWriter.WriteNumber(Utf8JsonWriter this, JsonEncodedText propertyName, Int64 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNumberJsonEncodedTextSingle">
+            <summary>设置 Utf8JsonWriter.WriteNumber(Utf8JsonWriter this, JsonEncodedText propertyName, Single value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNumberJsonEncodedTextUInt32">
+            <summary>设置 Utf8JsonWriter.WriteNumber(Utf8JsonWriter this, JsonEncodedText propertyName, UInt32 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNumberJsonEncodedTextUInt64">
+            <summary>设置 Utf8JsonWriter.WriteNumber(Utf8JsonWriter this, JsonEncodedText propertyName, UInt64 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNumberStringDecimal">
+            <summary>设置 Utf8JsonWriter.WriteNumber(Utf8JsonWriter this, String propertyName, Decimal value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNumberStringDouble">
+            <summary>设置 Utf8JsonWriter.WriteNumber(Utf8JsonWriter this, String propertyName, Double value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNumberStringInt32">
+            <summary>设置 Utf8JsonWriter.WriteNumber(Utf8JsonWriter this, String propertyName, Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNumberStringInt64">
+            <summary>设置 Utf8JsonWriter.WriteNumber(Utf8JsonWriter this, String propertyName, Int64 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNumberStringSingle">
+            <summary>设置 Utf8JsonWriter.WriteNumber(Utf8JsonWriter this, String propertyName, Single value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNumberStringUInt32">
+            <summary>设置 Utf8JsonWriter.WriteNumber(Utf8JsonWriter this, String propertyName, UInt32 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNumberStringUInt64">
+            <summary>设置 Utf8JsonWriter.WriteNumber(Utf8JsonWriter this, String propertyName, UInt64 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNumberValueAsStringDecimal">
+            <summary>设置 Utf8JsonWriter.WriteNumberValueAsString(Utf8JsonWriter this, Decimal value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNumberValueAsStringDouble">
+            <summary>设置 Utf8JsonWriter.WriteNumberValueAsString(Utf8JsonWriter this, Double value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNumberValueAsStringInt64">
+            <summary>设置 Utf8JsonWriter.WriteNumberValueAsString(Utf8JsonWriter this, Int64 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNumberValueAsStringSingle">
+            <summary>设置 Utf8JsonWriter.WriteNumberValueAsString(Utf8JsonWriter this, Single value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNumberValueAsStringUInt64">
+            <summary>设置 Utf8JsonWriter.WriteNumberValueAsString(Utf8JsonWriter this, UInt64 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNumberValueDecimal">
+            <summary>设置 Utf8JsonWriter.WriteNumberValue(Utf8JsonWriter this, Decimal value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNumberValueDouble">
+            <summary>设置 Utf8JsonWriter.WriteNumberValue(Utf8JsonWriter this, Double value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNumberValueIndentedDecimal">
+            <summary>设置 Utf8JsonWriter.WriteNumberValueIndented(Utf8JsonWriter this, Decimal value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNumberValueIndentedDouble">
+            <summary>设置 Utf8JsonWriter.WriteNumberValueIndented(Utf8JsonWriter this, Double value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNumberValueIndentedInt64">
+            <summary>设置 Utf8JsonWriter.WriteNumberValueIndented(Utf8JsonWriter this, Int64 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNumberValueIndentedSingle">
+            <summary>设置 Utf8JsonWriter.WriteNumberValueIndented(Utf8JsonWriter this, Single value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNumberValueIndentedUInt64">
+            <summary>设置 Utf8JsonWriter.WriteNumberValueIndented(Utf8JsonWriter this, UInt64 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNumberValueInt32">
+            <summary>设置 Utf8JsonWriter.WriteNumberValue(Utf8JsonWriter this, Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNumberValueInt64">
+            <summary>设置 Utf8JsonWriter.WriteNumberValue(Utf8JsonWriter this, Int64 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNumberValueMinimizedDecimal">
+            <summary>设置 Utf8JsonWriter.WriteNumberValueMinimized(Utf8JsonWriter this, Decimal value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNumberValueMinimizedDouble">
+            <summary>设置 Utf8JsonWriter.WriteNumberValueMinimized(Utf8JsonWriter this, Double value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNumberValueMinimizedInt64">
+            <summary>设置 Utf8JsonWriter.WriteNumberValueMinimized(Utf8JsonWriter this, Int64 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNumberValueMinimizedSingle">
+            <summary>设置 Utf8JsonWriter.WriteNumberValueMinimized(Utf8JsonWriter this, Single value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNumberValueMinimizedUInt64">
+            <summary>设置 Utf8JsonWriter.WriteNumberValueMinimized(Utf8JsonWriter this, UInt64 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNumberValueSingle">
+            <summary>设置 Utf8JsonWriter.WriteNumberValue(Utf8JsonWriter this, Single value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNumberValueUInt32">
+            <summary>设置 Utf8JsonWriter.WriteNumberValue(Utf8JsonWriter this, UInt32 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteNumberValueUInt64">
+            <summary>设置 Utf8JsonWriter.WriteNumberValue(Utf8JsonWriter this, UInt64 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WritePropertyNameBoolean">
+            <summary>设置 Utf8JsonWriter.WritePropertyName(Utf8JsonWriter this, Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WritePropertyNameDateTime">
+            <summary>设置 Utf8JsonWriter.WritePropertyName(Utf8JsonWriter this, DateTime value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WritePropertyNameDateTimeOffset">
+            <summary>设置 Utf8JsonWriter.WritePropertyName(Utf8JsonWriter this, DateTimeOffset value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WritePropertyNameDecimal">
+            <summary>设置 Utf8JsonWriter.WritePropertyName(Utf8JsonWriter this, Decimal value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WritePropertyNameDouble">
+            <summary>设置 Utf8JsonWriter.WritePropertyName(Utf8JsonWriter this, Double value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WritePropertyNameGuid">
+            <summary>设置 Utf8JsonWriter.WritePropertyName(Utf8JsonWriter this, Guid value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WritePropertyNameInt32">
+            <summary>设置 Utf8JsonWriter.WritePropertyName(Utf8JsonWriter this, Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WritePropertyNameInt64">
+            <summary>设置 Utf8JsonWriter.WritePropertyName(Utf8JsonWriter this, Int64 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WritePropertyNameJsonEncodedText">
+            <summary>设置 Utf8JsonWriter.WritePropertyName(Utf8JsonWriter this, JsonEncodedText propertyName) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WritePropertyNameSingle">
+            <summary>设置 Utf8JsonWriter.WritePropertyName(Utf8JsonWriter this, Single value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WritePropertyNameString">
+            <summary>设置 Utf8JsonWriter.WritePropertyName(Utf8JsonWriter this, String propertyName) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WritePropertyNameUInt32">
+            <summary>设置 Utf8JsonWriter.WritePropertyName(Utf8JsonWriter this, UInt32 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WritePropertyNameUInt64">
+            <summary>设置 Utf8JsonWriter.WritePropertyName(Utf8JsonWriter this, UInt64 value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteStartArray">
+            <summary>设置 Utf8JsonWriter.WriteStartArray(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteStartArrayJsonEncodedText">
+            <summary>设置 Utf8JsonWriter.WriteStartArray(Utf8JsonWriter this, JsonEncodedText propertyName) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteStartArrayString">
+            <summary>设置 Utf8JsonWriter.WriteStartArray(Utf8JsonWriter this, String propertyName) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteStartByte">
+            <summary>设置 Utf8JsonWriter.WriteStart(Utf8JsonWriter this, Byte token) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteStartIndentedByte">
+            <summary>设置 Utf8JsonWriter.WriteStartIndented(Utf8JsonWriter this, Byte token) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteStartMinimizedByte">
+            <summary>设置 Utf8JsonWriter.WriteStartMinimized(Utf8JsonWriter this, Byte token) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteStartObject">
+            <summary>设置 Utf8JsonWriter.WriteStartObject(Utf8JsonWriter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteStartObjectJsonEncodedText">
+            <summary>设置 Utf8JsonWriter.WriteStartObject(Utf8JsonWriter this, JsonEncodedText propertyName) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteStartObjectString">
+            <summary>设置 Utf8JsonWriter.WriteStartObject(Utf8JsonWriter this, String propertyName) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteStartSlowByte">
+            <summary>设置 Utf8JsonWriter.WriteStartSlow(Utf8JsonWriter this, Byte token) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteStringJsonEncodedTextDateTime">
+            <summary>设置 Utf8JsonWriter.WriteString(Utf8JsonWriter this, JsonEncodedText propertyName, DateTime value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteStringJsonEncodedTextDateTimeOffset">
+            <summary>设置 Utf8JsonWriter.WriteString(Utf8JsonWriter this, JsonEncodedText propertyName, DateTimeOffset value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteStringJsonEncodedTextGuid">
+            <summary>设置 Utf8JsonWriter.WriteString(Utf8JsonWriter this, JsonEncodedText propertyName, Guid value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteStringJsonEncodedTextJsonEncodedText">
+            <summary>设置 Utf8JsonWriter.WriteString(Utf8JsonWriter this, JsonEncodedText propertyName, JsonEncodedText value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteStringJsonEncodedTextString">
+            <summary>设置 Utf8JsonWriter.WriteString(Utf8JsonWriter this, JsonEncodedText propertyName, String value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteStringStringDateTime">
+            <summary>设置 Utf8JsonWriter.WriteString(Utf8JsonWriter this, String propertyName, DateTime value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteStringStringDateTimeOffset">
+            <summary>设置 Utf8JsonWriter.WriteString(Utf8JsonWriter this, String propertyName, DateTimeOffset value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteStringStringGuid">
+            <summary>设置 Utf8JsonWriter.WriteString(Utf8JsonWriter this, String propertyName, Guid value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteStringStringJsonEncodedText">
+            <summary>设置 Utf8JsonWriter.WriteString(Utf8JsonWriter this, String propertyName, JsonEncodedText value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteStringStringString">
+            <summary>设置 Utf8JsonWriter.WriteString(Utf8JsonWriter this, String propertyName, String value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteStringValueDateTime">
+            <summary>设置 Utf8JsonWriter.WriteStringValue(Utf8JsonWriter this, DateTime value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteStringValueDateTimeOffset">
+            <summary>设置 Utf8JsonWriter.WriteStringValue(Utf8JsonWriter this, DateTimeOffset value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteStringValueGuid">
+            <summary>设置 Utf8JsonWriter.WriteStringValue(Utf8JsonWriter this, Guid value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteStringValueIndentedDateTime">
+            <summary>设置 Utf8JsonWriter.WriteStringValueIndented(Utf8JsonWriter this, DateTime value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteStringValueIndentedDateTimeOffset">
+            <summary>设置 Utf8JsonWriter.WriteStringValueIndented(Utf8JsonWriter this, DateTimeOffset value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteStringValueIndentedGuid">
+            <summary>设置 Utf8JsonWriter.WriteStringValueIndented(Utf8JsonWriter this, Guid value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteStringValueJsonEncodedText">
+            <summary>设置 Utf8JsonWriter.WriteStringValue(Utf8JsonWriter this, JsonEncodedText value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteStringValueMinimizedDateTime">
+            <summary>设置 Utf8JsonWriter.WriteStringValueMinimized(Utf8JsonWriter this, DateTime value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteStringValueMinimizedDateTimeOffset">
+            <summary>设置 Utf8JsonWriter.WriteStringValueMinimized(Utf8JsonWriter this, DateTimeOffset value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteStringValueMinimizedGuid">
+            <summary>设置 Utf8JsonWriter.WriteStringValueMinimized(Utf8JsonWriter this, Guid value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.ShimUtf8JsonWriter.WriteStringValueString">
+            <summary>设置 Utf8JsonWriter.WriteStringValue(Utf8JsonWriter this, String value) 的 填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Fakes.StubJsonException">
+            <summary>System.Text.Json.JsonException 的存根类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.StubJsonException.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.StubJsonException.#ctor(System.String)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.StubJsonException.#ctor(System.String,System.Exception)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.StubJsonException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.StubJsonException.#ctor(System.String,System.String,System.Nullable{System.Int64},System.Nullable{System.Int64})">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.StubJsonException.#ctor(System.String,System.String,System.Nullable{System.Int64},System.Nullable{System.Int64},System.Exception)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.StubJsonException.AttachBackingFieldToHelpLink">
+            <summary>附加委托以将 StubJsonException.HelpLink 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.StubJsonException.AttachBackingFieldToSource">
+            <summary>附加委托以将 StubJsonException.Source 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.StubJsonException.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.StubJsonException.Data">
+            <summary>设置 Exception.get_Data(Exception this) 的 stub</summary>
+        </member>
+        <member name="F:System.Text.Json.Fakes.StubJsonException.DataGet">
+            <summary>设置 Exception.get_Data(Exception this) 的 stub</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.StubJsonException.GetBaseException">
+            <summary>设置 Exception.GetBaseException(Exception this) 的 存根</summary>
+        </member>
+        <member name="F:System.Text.Json.Fakes.StubJsonException.GetBaseException01">
+            <summary>设置 Exception.GetBaseException(Exception this) 的 stub</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.StubJsonException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>设置 JsonException.GetObjectData(JsonException this, SerializationInfo info, StreamingContext context) 的 存根</summary>
+        </member>
+        <member name="F:System.Text.Json.Fakes.StubJsonException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>设置 JsonException.GetObjectData(JsonException this, SerializationInfo info, StreamingContext context) 的 stub</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.StubJsonException.HelpLink">
+            <summary>设置 Exception.get_HelpLink(Exception this) 的 stub</summary>
+        </member>
+        <member name="F:System.Text.Json.Fakes.StubJsonException.HelpLinkGet">
+            <summary>设置 Exception.get_HelpLink(Exception this) 的 stub</summary>
+        </member>
+        <member name="F:System.Text.Json.Fakes.StubJsonException.HelpLinkSetString">
+            <summary>设置 Exception.set_HelpLink(Exception this, String value) 的 stub</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.StubJsonException.InitializeStub">
+            <summary>初始化 type StubJsonException 的新实例</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.StubJsonException.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.StubJsonException.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.StubJsonException.Message">
+            <summary>设置 JsonException.get_Message(JsonException this) 的 stub</summary>
+        </member>
+        <member name="F:System.Text.Json.Fakes.StubJsonException.MessageGet">
+            <summary>设置 JsonException.get_Message(JsonException this) 的 stub</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.StubJsonException.Source">
+            <summary>设置 Exception.get_Source(Exception this) 的 stub</summary>
+        </member>
+        <member name="F:System.Text.Json.Fakes.StubJsonException.SourceGet">
+            <summary>设置 Exception.get_Source(Exception this) 的 stub</summary>
+        </member>
+        <member name="F:System.Text.Json.Fakes.StubJsonException.SourceSetString">
+            <summary>设置 Exception.set_Source(Exception this, String value) 的 stub</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.StubJsonException.StackTrace">
+            <summary>设置 Exception.get_StackTrace(Exception this) 的 stub</summary>
+        </member>
+        <member name="F:System.Text.Json.Fakes.StubJsonException.StackTraceGet">
+            <summary>设置 Exception.get_StackTrace(Exception this) 的 stub</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.StubJsonException.ToString">
+            <summary>设置 Exception.ToString(Exception this) 的 存根</summary>
+        </member>
+        <member name="F:System.Text.Json.Fakes.StubJsonException.ToString01">
+            <summary>设置 Exception.ToString(Exception this) 的 stub</summary>
+        </member>
+        <member name="T:System.Text.Json.Fakes.StubJsonNamingPolicy">
+            <summary>System.Text.Json.JsonNamingPolicy 的存根类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.StubJsonNamingPolicy.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.StubJsonNamingPolicy.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.StubJsonNamingPolicy.ConvertName(System.String)">
+            <summary>设置 JsonNamingPolicy.ConvertName(JsonNamingPolicy this, String name) 的 存根</summary>
+        </member>
+        <member name="F:System.Text.Json.Fakes.StubJsonNamingPolicy.ConvertNameString">
+            <summary>设置 JsonNamingPolicy.ConvertName(JsonNamingPolicy this, String name) 的 stub</summary>
+        </member>
+        <member name="M:System.Text.Json.Fakes.StubJsonNamingPolicy.InitializeStub">
+            <summary>初始化 type StubJsonNamingPolicy 的新实例</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.StubJsonNamingPolicy.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:System.Text.Json.Fakes.StubJsonNamingPolicy.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:System.Text.Json.Serialization.Fakes.ShimJsonAttribute">
+            <summary>System.Text.Json.Serialization.JsonAttribute 的填充码类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonAttribute.#ctor(System.Text.Json.Serialization.JsonAttribute)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Serialization.Fakes.ShimJsonAttribute.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonAttribute.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonAttribute.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonAttribute.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonAttribute.Constructor">
+            <summary>设置 JsonAttribute.JsonAttribute(JsonAttribute this) 的 填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Serialization.Fakes.ShimJsonConstructorAttribute">
+            <summary>System.Text.Json.Serialization.JsonConstructorAttribute 的填充码类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonConstructorAttribute.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonConstructorAttribute.#ctor(System.Text.Json.Serialization.JsonConstructorAttribute)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Serialization.Fakes.ShimJsonConstructorAttribute.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonConstructorAttribute.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonConstructorAttribute.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConstructorAttribute.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConstructorAttribute.Constructor">
+            <summary>设置 JsonConstructorAttribute.JsonConstructorAttribute(JsonConstructorAttribute this) 的 填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Serialization.Fakes.ShimJsonConverter">
+            <summary>System.Text.Json.Serialization.JsonConverter 的填充码类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonConverter.#ctor(System.Text.Json.Serialization.JsonConverter)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Serialization.Fakes.ShimJsonConverter.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter.AllInstances.CanBePolymorphicGet">
+            <summary>设置 JsonConverter.get_CanBePolymorphic(JsonConverter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter.AllInstances.CanBePolymorphicSetBoolean">
+            <summary>设置 JsonConverter.set_CanBePolymorphic(JsonConverter this, Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter.AllInstances.CanHaveIdMetadataGet">
+            <summary>设置 JsonConverter.get_CanHaveIdMetadata(JsonConverter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter.AllInstances.CanUseDirectReadOrWriteGet">
+            <summary>设置 JsonConverter.get_CanUseDirectReadOrWrite(JsonConverter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter.AllInstances.CanUseDirectReadOrWriteSetBoolean">
+            <summary>设置 JsonConverter.set_CanUseDirectReadOrWrite(JsonConverter this, Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter.AllInstances.ConstructorInfoGet">
+            <summary>设置 JsonConverter.get_ConstructorInfo(JsonConverter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter.AllInstances.ConstructorInfoSetConstructorInfo">
+            <summary>设置 JsonConverter.set_ConstructorInfo(JsonConverter this, ConstructorInfo value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter.AllInstances.ConstructorIsParameterizedGet">
+            <summary>设置 JsonConverter.get_ConstructorIsParameterized(JsonConverter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter.AllInstances.InitializeJsonSerializerOptions">
+            <summary>设置 JsonConverter.Initialize(JsonConverter this, JsonSerializerOptions options) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter.AllInstances.IsInternalConverterGet">
+            <summary>设置 JsonConverter.get_IsInternalConverter(JsonConverter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter.AllInstances.IsInternalConverterSetBoolean">
+            <summary>设置 JsonConverter.set_IsInternalConverter(JsonConverter this, Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter.AllInstances.IsValueTypeGet">
+            <summary>设置 JsonConverter.get_IsValueType(JsonConverter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter.AllInstances.IsValueTypeSetBoolean">
+            <summary>设置 JsonConverter.set_IsValueType(JsonConverter this, Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter.AllInstances.RuntimeTypeGet">
+            <summary>设置 JsonConverter.get_RuntimeType(JsonConverter this) 的 填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonConverter.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonConverter.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter.CanBePolymorphicGet">
+            <summary>设置 JsonConverter.get_CanBePolymorphic(JsonConverter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter.CanBePolymorphicSetBoolean">
+            <summary>设置 JsonConverter.set_CanBePolymorphic(JsonConverter this, Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter.CanHaveIdMetadataGet">
+            <summary>设置 JsonConverter.get_CanHaveIdMetadata(JsonConverter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter.CanUseDirectReadOrWriteGet">
+            <summary>设置 JsonConverter.get_CanUseDirectReadOrWrite(JsonConverter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter.CanUseDirectReadOrWriteSetBoolean">
+            <summary>设置 JsonConverter.set_CanUseDirectReadOrWrite(JsonConverter this, Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter.Constructor">
+            <summary>设置 JsonConverter.JsonConverter(JsonConverter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter.ConstructorInfoGet">
+            <summary>设置 JsonConverter.get_ConstructorInfo(JsonConverter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter.ConstructorInfoSetConstructorInfo">
+            <summary>设置 JsonConverter.set_ConstructorInfo(JsonConverter this, ConstructorInfo value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter.ConstructorIsParameterizedGet">
+            <summary>设置 JsonConverter.get_ConstructorIsParameterized(JsonConverter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter.InitializeJsonSerializerOptions">
+            <summary>设置 JsonConverter.Initialize(JsonConverter this, JsonSerializerOptions options) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter.IsInternalConverterGet">
+            <summary>设置 JsonConverter.get_IsInternalConverter(JsonConverter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter.IsInternalConverterSetBoolean">
+            <summary>设置 JsonConverter.set_IsInternalConverter(JsonConverter this, Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter.IsValueTypeGet">
+            <summary>设置 JsonConverter.get_IsValueType(JsonConverter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter.IsValueTypeSetBoolean">
+            <summary>设置 JsonConverter.set_IsValueType(JsonConverter this, Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter.RuntimeTypeGet">
+            <summary>设置 JsonConverter.get_RuntimeType(JsonConverter this) 的 填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Serialization.Fakes.ShimJsonConverter`1">
+            <summary>System.Text.Json.Serialization.JsonConverter&lt;T&gt; 的填充码类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonConverter`1.#ctor(System.Text.Json.Serialization.JsonConverter{`0})">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Serialization.Fakes.ShimJsonConverter`1.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter`1.AllInstances.CanBeNullGet">
+            <summary>设置 JsonConverter`1.get_CanBeNull(JsonConverter`1 this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter`1.AllInstances.CanConvertType">
+            <summary>设置 JsonConverter`1.CanConvert(JsonConverter`1 this, Type typeToConvert) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter`1.AllInstances.ElementTypeGet">
+            <summary>设置 JsonConverter`1.get_ElementType(JsonConverter`1 this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter`1.AllInstances.HandleNullGet">
+            <summary>设置 JsonConverter`1.get_HandleNull(JsonConverter`1 this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter`1.AllInstances.HandleNullOnReadGet">
+            <summary>设置 JsonConverter`1.get_HandleNullOnRead(JsonConverter`1 this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter`1.AllInstances.HandleNullOnReadSetBoolean">
+            <summary>设置 JsonConverter`1.set_HandleNullOnRead(JsonConverter`1 this, Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter`1.AllInstances.HandleNullOnWriteGet">
+            <summary>设置 JsonConverter`1.get_HandleNullOnWrite(JsonConverter`1 this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter`1.AllInstances.HandleNullOnWriteSetBoolean">
+            <summary>设置 JsonConverter`1.set_HandleNullOnWrite(JsonConverter`1 this, Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter`1.AllInstances.TypeToConvertGet">
+            <summary>设置 JsonConverter`1.get_TypeToConvert(JsonConverter`1 this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter`1.AllInstances.VerifyWriteInt32Utf8JsonWriter">
+            <summary>设置 JsonConverter`1.VerifyWrite(JsonConverter`1 this, Int32 originalDepth, Utf8JsonWriter writer) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter`1.AllInstances.WriteNumberWithCustomHandlingUtf8JsonWriterT0JsonNumberHandling">
+            <summary>设置 JsonConverter`1.WriteNumberWithCustomHandling(JsonConverter`1 this, Utf8JsonWriter writer, !0 value, JsonNumberHandling handling) 的 填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonConverter`1.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonConverter`1.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter`1.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter`1.CanBeNullGet">
+            <summary>设置 JsonConverter`1.get_CanBeNull(JsonConverter`1 this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter`1.CanConvertType">
+            <summary>设置 JsonConverter`1.CanConvert(JsonConverter`1 this, Type typeToConvert) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter`1.Constructor">
+            <summary>设置 JsonConverter`1.JsonConverter`1(JsonConverter`1 this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter`1.ElementTypeGet">
+            <summary>设置 JsonConverter`1.get_ElementType(JsonConverter`1 this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter`1.HandleNullGet">
+            <summary>设置 JsonConverter`1.get_HandleNull(JsonConverter`1 this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter`1.HandleNullOnReadGet">
+            <summary>设置 JsonConverter`1.get_HandleNullOnRead(JsonConverter`1 this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter`1.HandleNullOnReadSetBoolean">
+            <summary>设置 JsonConverter`1.set_HandleNullOnRead(JsonConverter`1 this, Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter`1.HandleNullOnWriteGet">
+            <summary>设置 JsonConverter`1.get_HandleNullOnWrite(JsonConverter`1 this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter`1.HandleNullOnWriteSetBoolean">
+            <summary>设置 JsonConverter`1.set_HandleNullOnWrite(JsonConverter`1 this, Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter`1.TypeToConvertGet">
+            <summary>设置 JsonConverter`1.get_TypeToConvert(JsonConverter`1 this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter`1.VerifyWriteInt32Utf8JsonWriter">
+            <summary>设置 JsonConverter`1.VerifyWrite(JsonConverter`1 this, Int32 originalDepth, Utf8JsonWriter writer) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverter`1.WriteNumberWithCustomHandlingUtf8JsonWriterT0JsonNumberHandling">
+            <summary>设置 JsonConverter`1.WriteNumberWithCustomHandling(JsonConverter`1 this, Utf8JsonWriter writer, !0 value, JsonNumberHandling handling) 的 填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Serialization.Fakes.ShimJsonConverterAttribute">
+            <summary>System.Text.Json.Serialization.JsonConverterAttribute 的填充码类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonConverterAttribute.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonConverterAttribute.#ctor(System.Text.Json.Serialization.JsonConverterAttribute)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Serialization.Fakes.ShimJsonConverterAttribute.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverterAttribute.AllInstances.ConverterTypeGet">
+            <summary>设置 JsonConverterAttribute.get_ConverterType(JsonConverterAttribute this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverterAttribute.AllInstances.ConverterTypeSetType">
+            <summary>设置 JsonConverterAttribute.set_ConverterType(JsonConverterAttribute this, Type value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverterAttribute.AllInstances.CreateConverterType">
+            <summary>设置 JsonConverterAttribute.CreateConverter(JsonConverterAttribute this, Type typeToConvert) 的 填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonConverterAttribute.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonConverterAttribute.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverterAttribute.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverterAttribute.Constructor">
+            <summary>设置 JsonConverterAttribute.JsonConverterAttribute(JsonConverterAttribute this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverterAttribute.ConstructorType">
+            <summary>设置 JsonConverterAttribute.JsonConverterAttribute(JsonConverterAttribute this, Type converterType) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverterAttribute.ConverterTypeGet">
+            <summary>设置 JsonConverterAttribute.get_ConverterType(JsonConverterAttribute this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverterAttribute.ConverterTypeSetType">
+            <summary>设置 JsonConverterAttribute.set_ConverterType(JsonConverterAttribute this, Type value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverterAttribute.CreateConverterType">
+            <summary>设置 JsonConverterAttribute.CreateConverter(JsonConverterAttribute this, Type typeToConvert) 的 填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Serialization.Fakes.ShimJsonConverterFactory">
+            <summary>System.Text.Json.Serialization.JsonConverterFactory 的填充码类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonConverterFactory.#ctor(System.Text.Json.Serialization.JsonConverterFactory)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Serialization.Fakes.ShimJsonConverterFactory.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverterFactory.AllInstances.ElementTypeGet">
+            <summary>设置 JsonConverterFactory.get_ElementType(JsonConverterFactory this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverterFactory.AllInstances.GetConverterInternalTypeJsonSerializerOptions">
+            <summary>设置 JsonConverterFactory.GetConverterInternal(JsonConverterFactory this, Type typeToConvert, JsonSerializerOptions options) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverterFactory.AllInstances.TypeToConvertGet">
+            <summary>设置 JsonConverterFactory.get_TypeToConvert(JsonConverterFactory this) 的 填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonConverterFactory.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonConverterFactory.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverterFactory.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverterFactory.Constructor">
+            <summary>设置 JsonConverterFactory.JsonConverterFactory(JsonConverterFactory this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverterFactory.ElementTypeGet">
+            <summary>设置 JsonConverterFactory.get_ElementType(JsonConverterFactory this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverterFactory.GetConverterInternalTypeJsonSerializerOptions">
+            <summary>设置 JsonConverterFactory.GetConverterInternal(JsonConverterFactory this, Type typeToConvert, JsonSerializerOptions options) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonConverterFactory.TypeToConvertGet">
+            <summary>设置 JsonConverterFactory.get_TypeToConvert(JsonConverterFactory this) 的 填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Serialization.Fakes.ShimJsonExtensionDataAttribute">
+            <summary>System.Text.Json.Serialization.JsonExtensionDataAttribute 的填充码类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonExtensionDataAttribute.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonExtensionDataAttribute.#ctor(System.Text.Json.Serialization.JsonExtensionDataAttribute)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Serialization.Fakes.ShimJsonExtensionDataAttribute.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonExtensionDataAttribute.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonExtensionDataAttribute.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonExtensionDataAttribute.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonExtensionDataAttribute.Constructor">
+            <summary>设置 JsonExtensionDataAttribute.JsonExtensionDataAttribute(JsonExtensionDataAttribute this) 的 填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Serialization.Fakes.ShimJsonIgnoreAttribute">
+            <summary>System.Text.Json.Serialization.JsonIgnoreAttribute 的填充码类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonIgnoreAttribute.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonIgnoreAttribute.#ctor(System.Text.Json.Serialization.JsonIgnoreAttribute)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Serialization.Fakes.ShimJsonIgnoreAttribute.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonIgnoreAttribute.AllInstances.ConditionGet">
+            <summary>设置 JsonIgnoreAttribute.get_Condition(JsonIgnoreAttribute this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonIgnoreAttribute.AllInstances.ConditionSetJsonIgnoreCondition">
+            <summary>设置 JsonIgnoreAttribute.set_Condition(JsonIgnoreAttribute this, JsonIgnoreCondition value) 的 填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonIgnoreAttribute.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonIgnoreAttribute.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonIgnoreAttribute.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonIgnoreAttribute.ConditionGet">
+            <summary>设置 JsonIgnoreAttribute.get_Condition(JsonIgnoreAttribute this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonIgnoreAttribute.ConditionSetJsonIgnoreCondition">
+            <summary>设置 JsonIgnoreAttribute.set_Condition(JsonIgnoreAttribute this, JsonIgnoreCondition value) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonIgnoreAttribute.Constructor">
+            <summary>设置 JsonIgnoreAttribute.JsonIgnoreAttribute(JsonIgnoreAttribute this) 的 填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Serialization.Fakes.ShimJsonIncludeAttribute">
+            <summary>System.Text.Json.Serialization.JsonIncludeAttribute 的填充码类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonIncludeAttribute.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonIncludeAttribute.#ctor(System.Text.Json.Serialization.JsonIncludeAttribute)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Serialization.Fakes.ShimJsonIncludeAttribute.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonIncludeAttribute.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonIncludeAttribute.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonIncludeAttribute.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonIncludeAttribute.Constructor">
+            <summary>设置 JsonIncludeAttribute.JsonIncludeAttribute(JsonIncludeAttribute this) 的 填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Serialization.Fakes.ShimJsonNumberHandlingAttribute">
+            <summary>System.Text.Json.Serialization.JsonNumberHandlingAttribute 的填充码类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonNumberHandlingAttribute.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonNumberHandlingAttribute.#ctor(System.Text.Json.Serialization.JsonNumberHandlingAttribute)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Serialization.Fakes.ShimJsonNumberHandlingAttribute.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonNumberHandlingAttribute.AllInstances.HandlingGet">
+            <summary>设置 JsonNumberHandlingAttribute.get_Handling(JsonNumberHandlingAttribute this) 的 填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonNumberHandlingAttribute.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonNumberHandlingAttribute.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonNumberHandlingAttribute.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonNumberHandlingAttribute.ConstructorJsonNumberHandling">
+            <summary>设置 JsonNumberHandlingAttribute.JsonNumberHandlingAttribute(JsonNumberHandlingAttribute this, JsonNumberHandling handling) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonNumberHandlingAttribute.HandlingGet">
+            <summary>设置 JsonNumberHandlingAttribute.get_Handling(JsonNumberHandlingAttribute this) 的 填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Serialization.Fakes.ShimJsonPropertyNameAttribute">
+            <summary>System.Text.Json.Serialization.JsonPropertyNameAttribute 的填充码类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonPropertyNameAttribute.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonPropertyNameAttribute.#ctor(System.Text.Json.Serialization.JsonPropertyNameAttribute)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Serialization.Fakes.ShimJsonPropertyNameAttribute.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonPropertyNameAttribute.AllInstances.NameGet">
+            <summary>设置 JsonPropertyNameAttribute.get_Name(JsonPropertyNameAttribute this) 的 填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonPropertyNameAttribute.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonPropertyNameAttribute.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonPropertyNameAttribute.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonPropertyNameAttribute.ConstructorString">
+            <summary>设置 JsonPropertyNameAttribute.JsonPropertyNameAttribute(JsonPropertyNameAttribute this, String name) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonPropertyNameAttribute.NameGet">
+            <summary>设置 JsonPropertyNameAttribute.get_Name(JsonPropertyNameAttribute this) 的 填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Serialization.Fakes.ShimJsonStringEnumConverter">
+            <summary>System.Text.Json.Serialization.JsonStringEnumConverter 的填充码类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonStringEnumConverter.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonStringEnumConverter.#ctor(System.Text.Json.Serialization.JsonStringEnumConverter)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Serialization.Fakes.ShimJsonStringEnumConverter.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonStringEnumConverter.AllInstances.CanConvertType">
+            <summary>设置 JsonStringEnumConverter.CanConvert(JsonStringEnumConverter this, Type typeToConvert) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonStringEnumConverter.AllInstances.CreateConverterTypeJsonSerializerOptions">
+            <summary>设置 JsonStringEnumConverter.CreateConverter(JsonStringEnumConverter this, Type typeToConvert, JsonSerializerOptions options) 的 填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonStringEnumConverter.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimJsonStringEnumConverter.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonStringEnumConverter.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonStringEnumConverter.CanConvertType">
+            <summary>设置 JsonStringEnumConverter.CanConvert(JsonStringEnumConverter this, Type typeToConvert) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonStringEnumConverter.Constructor">
+            <summary>设置 JsonStringEnumConverter.JsonStringEnumConverter(JsonStringEnumConverter this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonStringEnumConverter.ConstructorJsonNamingPolicyBoolean">
+            <summary>设置 JsonStringEnumConverter.JsonStringEnumConverter(JsonStringEnumConverter this, JsonNamingPolicy namingPolicy, Boolean allowIntegerValues) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimJsonStringEnumConverter.CreateConverterTypeJsonSerializerOptions">
+            <summary>设置 JsonStringEnumConverter.CreateConverter(JsonStringEnumConverter this, Type typeToConvert, JsonSerializerOptions options) 的 填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Serialization.Fakes.ShimReferenceHandler">
+            <summary>System.Text.Json.Serialization.ReferenceHandler 的填充码类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimReferenceHandler.#ctor(System.Text.Json.Serialization.ReferenceHandler)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Serialization.Fakes.ShimReferenceHandler.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimReferenceHandler.AllInstances.CreateResolverBoolean">
+            <summary>设置 ReferenceHandler.CreateResolver(ReferenceHandler this, Boolean writing) 的 填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimReferenceHandler.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimReferenceHandler.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimReferenceHandler.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimReferenceHandler.Constructor">
+            <summary>设置 ReferenceHandler.ReferenceHandler(ReferenceHandler this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimReferenceHandler.CreateResolverBoolean">
+            <summary>设置 ReferenceHandler.CreateResolver(ReferenceHandler this, Boolean writing) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimReferenceHandler.PreserveGet">
+            <summary>设置 ReferenceHandler.get_Preserve() 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimReferenceHandler.StaticConstructor">
+            <summary>设置 ReferenceHandler.ReferenceHandler() 的 填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Serialization.Fakes.ShimReferenceHandler`1">
+            <summary>System.Text.Json.Serialization.ReferenceHandler&lt;T&gt; 的填充码类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimReferenceHandler`1.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimReferenceHandler`1.#ctor(System.Text.Json.Serialization.ReferenceHandler{`0})">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Serialization.Fakes.ShimReferenceHandler`1.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimReferenceHandler`1.AllInstances.CreateResolver">
+            <summary>设置 ReferenceHandler`1.CreateResolver(ReferenceHandler`1 this) 的 填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimReferenceHandler`1.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimReferenceHandler`1.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimReferenceHandler`1.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimReferenceHandler`1.Constructor">
+            <summary>设置 ReferenceHandler`1.ReferenceHandler`1(ReferenceHandler`1 this) 的 填充码</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimReferenceHandler`1.CreateResolver">
+            <summary>设置 ReferenceHandler`1.CreateResolver(ReferenceHandler`1 this) 的 填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Serialization.Fakes.ShimReferenceResolver">
+            <summary>System.Text.Json.Serialization.ReferenceResolver 的填充码类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimReferenceResolver.#ctor(System.Text.Json.Serialization.ReferenceResolver)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Serialization.Fakes.ShimReferenceResolver.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimReferenceResolver.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.ShimReferenceResolver.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimReferenceResolver.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.ShimReferenceResolver.Constructor">
+            <summary>设置 ReferenceResolver.ReferenceResolver(ReferenceResolver this) 的 填充码</summary>
+        </member>
+        <member name="T:System.Text.Json.Serialization.Fakes.StubJsonAttribute">
+            <summary>System.Text.Json.Serialization.JsonAttribute 的存根类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.StubJsonAttribute.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.StubJsonAttribute.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.StubJsonAttribute.GetHashCode">
+            <summary>设置 Attribute.GetHashCode(Attribute this) 的 存根</summary>
+        </member>
+        <member name="F:System.Text.Json.Serialization.Fakes.StubJsonAttribute.GetHashCode01">
+            <summary>设置 Attribute.GetHashCode(Attribute this) 的 stub</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.StubJsonAttribute.InitializeStub">
+            <summary>初始化 type StubJsonAttribute 的新实例</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.StubJsonAttribute.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.StubJsonAttribute.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.StubJsonAttribute.IsDefaultAttribute">
+            <summary>设置 Attribute.IsDefaultAttribute(Attribute this) 的 存根</summary>
+        </member>
+        <member name="F:System.Text.Json.Serialization.Fakes.StubJsonAttribute.IsDefaultAttribute01">
+            <summary>设置 Attribute.IsDefaultAttribute(Attribute this) 的 stub</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.StubJsonAttribute.Match(System.Object)">
+            <summary>设置 Attribute.Match(Attribute this, Object obj) 的 存根</summary>
+        </member>
+        <member name="F:System.Text.Json.Serialization.Fakes.StubJsonAttribute.MatchObject">
+            <summary>设置 Attribute.Match(Attribute this, Object obj) 的 stub</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.StubJsonAttribute.TypeId">
+            <summary>设置 Attribute.get_TypeId(Attribute this) 的 stub</summary>
+        </member>
+        <member name="F:System.Text.Json.Serialization.Fakes.StubJsonAttribute.TypeIdGet">
+            <summary>设置 Attribute.get_TypeId(Attribute this) 的 stub</summary>
+        </member>
+        <member name="T:System.Text.Json.Serialization.Fakes.StubJsonConverterAttribute">
+            <summary>System.Text.Json.Serialization.JsonConverterAttribute 的存根类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.StubJsonConverterAttribute.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.StubJsonConverterAttribute.#ctor(System.Type)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.StubJsonConverterAttribute.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.StubJsonConverterAttribute.CreateConverter(System.Type)">
+            <summary>设置 JsonConverterAttribute.CreateConverter(JsonConverterAttribute this, Type typeToConvert) 的 存根</summary>
+        </member>
+        <member name="F:System.Text.Json.Serialization.Fakes.StubJsonConverterAttribute.CreateConverterType">
+            <summary>设置 JsonConverterAttribute.CreateConverter(JsonConverterAttribute this, Type typeToConvert) 的 stub</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.StubJsonConverterAttribute.GetHashCode">
+            <summary>设置 Attribute.GetHashCode(Attribute this) 的 存根</summary>
+        </member>
+        <member name="F:System.Text.Json.Serialization.Fakes.StubJsonConverterAttribute.GetHashCode01">
+            <summary>设置 Attribute.GetHashCode(Attribute this) 的 stub</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.StubJsonConverterAttribute.InitializeStub">
+            <summary>初始化 type StubJsonConverterAttribute 的新实例</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.StubJsonConverterAttribute.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.StubJsonConverterAttribute.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.StubJsonConverterAttribute.IsDefaultAttribute">
+            <summary>设置 Attribute.IsDefaultAttribute(Attribute this) 的 存根</summary>
+        </member>
+        <member name="F:System.Text.Json.Serialization.Fakes.StubJsonConverterAttribute.IsDefaultAttribute01">
+            <summary>设置 Attribute.IsDefaultAttribute(Attribute this) 的 stub</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.StubJsonConverterAttribute.Match(System.Object)">
+            <summary>设置 Attribute.Match(Attribute this, Object obj) 的 存根</summary>
+        </member>
+        <member name="F:System.Text.Json.Serialization.Fakes.StubJsonConverterAttribute.MatchObject">
+            <summary>设置 Attribute.Match(Attribute this, Object obj) 的 stub</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.StubJsonConverterAttribute.TypeId">
+            <summary>设置 Attribute.get_TypeId(Attribute this) 的 stub</summary>
+        </member>
+        <member name="F:System.Text.Json.Serialization.Fakes.StubJsonConverterAttribute.TypeIdGet">
+            <summary>设置 Attribute.get_TypeId(Attribute this) 的 stub</summary>
+        </member>
+        <member name="T:System.Text.Json.Serialization.Fakes.StubReferenceHandler">
+            <summary>System.Text.Json.Serialization.ReferenceHandler 的存根类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.StubReferenceHandler.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.StubReferenceHandler.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.StubReferenceHandler.CreateResolver">
+            <summary>设置 ReferenceHandler.CreateResolver(ReferenceHandler this) 的 存根</summary>
+        </member>
+        <member name="F:System.Text.Json.Serialization.Fakes.StubReferenceHandler.CreateResolver01">
+            <summary>设置 ReferenceHandler.CreateResolver(ReferenceHandler this) 的 stub</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.StubReferenceHandler.InitializeStub">
+            <summary>初始化 type StubReferenceHandler 的新实例</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.StubReferenceHandler.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.StubReferenceHandler.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:System.Text.Json.Serialization.Fakes.StubReferenceResolver">
+            <summary>System.Text.Json.Serialization.ReferenceResolver 的存根类型</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.StubReferenceResolver.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.StubReferenceResolver.AddReference(System.String,System.Object)">
+            <summary>设置 ReferenceResolver.AddReference(ReferenceResolver this, String referenceId, Object value) 的 存根</summary>
+        </member>
+        <member name="F:System.Text.Json.Serialization.Fakes.StubReferenceResolver.AddReferenceStringObject">
+            <summary>设置 ReferenceResolver.AddReference(ReferenceResolver this, String referenceId, Object value) 的 stub</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.StubReferenceResolver.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.StubReferenceResolver.GetReference(System.Object,System.Boolean@)">
+            <summary>设置 ReferenceResolver.GetReference(ReferenceResolver this, Object value, Boolean* alreadyExists) 的 存根</summary>
+        </member>
+        <member name="F:System.Text.Json.Serialization.Fakes.StubReferenceResolver.GetReferenceObjectBooleanOut">
+            <summary>设置 ReferenceResolver.GetReference(ReferenceResolver this, Object value, Boolean* alreadyExists) 的 stub</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.StubReferenceResolver.InitializeStub">
+            <summary>初始化 type StubReferenceResolver 的新实例</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.StubReferenceResolver.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:System.Text.Json.Serialization.Fakes.StubReferenceResolver.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="M:System.Text.Json.Serialization.Fakes.StubReferenceResolver.ResolveReference(System.String)">
+            <summary>设置 ReferenceResolver.ResolveReference(ReferenceResolver this, String referenceId) 的 存根</summary>
+        </member>
+        <member name="F:System.Text.Json.Serialization.Fakes.StubReferenceResolver.ResolveReferenceString">
+            <summary>设置 ReferenceResolver.ResolveReference(ReferenceResolver this, String referenceId) 的 stub</summary>
+        </member>
+    </members>
+</doc>

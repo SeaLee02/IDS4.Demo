@@ -1,2 +1,10 @@
 /src/IDS4.Demo/obj
 /src/IDS4.Demo/bin
+/Demo/quickstart/src/Api/obj
+/Demo/quickstart/src/Api/bin
+/Demo/quickstart/src/Client/obj
+/Demo/quickstart/src/Client/bin
+/Demo/quickstart/src/IdentityServer/obj
+/Demo/quickstart/src/IdentityServer/bin
+/Demo/quickstart/src/MvcClient/obj
+/Demo/quickstart/src/MvcClient/bin
